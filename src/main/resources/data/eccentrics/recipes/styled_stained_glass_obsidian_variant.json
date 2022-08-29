@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "nEn",
+    "EDE",
+    "nEn"
+  ],
+  "key": {
+    "n": {
+      "item": "minecraft:purple_dye"
+    },
+    "E": {
+      "item": "minecraft:obsidian"
+    },
+    "D": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "eccentrics:styled_stained_glass_obsidian_variant",
+    "count": 8
+  }
+}

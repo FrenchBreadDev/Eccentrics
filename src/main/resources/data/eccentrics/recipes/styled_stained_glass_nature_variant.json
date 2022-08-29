@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "nEn",
+    "EDE",
+    "nEn"
+  ],
+  "key": {
+    "n": {
+      "item": "minecraft:green_dye"
+    },
+    "E": {
+      "item": "minecraft:lime_dye"
+    },
+    "D": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "eccentrics:styled_stained_glass_nature_variant",
+    "count": 8
+  }
+}

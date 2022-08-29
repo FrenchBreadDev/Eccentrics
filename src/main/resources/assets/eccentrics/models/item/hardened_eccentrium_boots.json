@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "eccentrics:item/hardened_eccentrium_boots"
+  }
+}

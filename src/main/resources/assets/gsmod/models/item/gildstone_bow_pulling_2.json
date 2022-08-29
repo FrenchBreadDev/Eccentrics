@@ -1,6 +1,0 @@
-{
-  "parent": "gsmod:item/gildstone_bow",
-  "textures": {
-    "layer0": "gsmod:item/gildstone_bow_pulling_2"
-  }
-}

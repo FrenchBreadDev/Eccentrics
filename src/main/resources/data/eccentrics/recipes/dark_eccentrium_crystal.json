@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#C#",
+    "CEC",
+    "#C#"
+  ],
+  "key": {
+    "#": {
+      "item": "eccentrics:hardened_eccentrium_crystal"
+    },
+    "C": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "E": {
+      "item": "eccentrics:citadel_star"
+    }
+  },
+  "result": {
+    "item": "eccentrics:dark_eccentrium_crystal",
+    "count": 8
+  },
+  "group": "stuff"
+}

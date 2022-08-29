@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "nEn",
+    "EDE",
+    "nEn"
+  ],
+  "key": {
+    "n": {
+      "item": "eccentrics:citadel_star_fragment"
+    },
+    "E": {
+      "item": "eccentrics:bedrock_fragment"
+    },
+    "D": {
+      "item": "eccentrics:styled_stained_glass_obsidian_variant"
+    }
+  },
+  "result": {
+    "item": "eccentrics:styled_stained_glass_bedrock_variant",
+    "count": 8
+  }
+}

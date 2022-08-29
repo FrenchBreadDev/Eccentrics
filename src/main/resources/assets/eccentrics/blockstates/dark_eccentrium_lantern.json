@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true": { "model": "eccentrics:block/dark_eccentrium_lantern_on" },
+    "lit=false": { "model": "eccentrics:block/dark_eccentrium_lantern_off" }
+  }
+}

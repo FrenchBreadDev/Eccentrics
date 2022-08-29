@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "eccentrics:citadel_star_fragment"
+    },
+    {
+      "item": "eccentrics:citadel_star_fragment"
+    },
+    {
+      "item": "eccentrics:citadel_star_fragment"
+    },
+    {
+      "item": "eccentrics:citadel_star_fragment"
+    }
+  ],
+  "result": {
+    "item": "eccentrics:citadel_star",
+    "count": 1
+  },
+  "group": "stuff"
+}

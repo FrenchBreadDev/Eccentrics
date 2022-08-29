@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true": { "model": "eccentrics:block/styled_stained_glass_elemental_variant" },
+    "lit=false": { "model": "eccentrics:block/styled_stained_glass_elemental_variant_off" }
+  }
+}

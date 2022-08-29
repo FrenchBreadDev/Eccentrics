@@ -1,32 +1,32 @@
 {
   "schemaVersion": 1,
-  "id": "gsmod",
+  "id": "eccentrics",
   "version": "${version}",
 
-  "name": "Gilded Swords Mod",
-  "description": "Adds Gilded Armor and Tools, Along with Ore and Others",
+  "name": "Eccentrics",
+  "description": "Adds a plethora of random items, blocks and one set of gear/armor. Enjoy or I'll take your joints :D",
   "authors": [
-    "FrenchBreadDev"
+    "FrenchBread"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FrenchBreadDev/GildedSwordsAndOre1.19"
+    "homepage": "https://github.com/FrenchBreadDev/EccentricsModMain",
+    "issues": "https://github.com/FrenchBreadDev/EccentricsModMain/issues"
   },
 
   "license": "MIT License",
-  "icon": "assets/icon.png",
+  "icon": "assets/eccentrics.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.frenchbreadev.gsmod.GsMod"
+      "net.frenchbreadev.eccentrics.EccentricsMod"
     ],
     "client": [
-      "net.frenchbreadev.gsmod.GsModClient"
+      "net.frenchbreadev.eccentrics.EccentricsModClient"
     ]
   },
   "mixins": [
-    "gsmod.mixins.json"
+    "eccentrics.mixins.json"
   ],
 
   "depends": {

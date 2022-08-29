@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "gsmod:block/compressed_impeuridium_block"
-  }
-}

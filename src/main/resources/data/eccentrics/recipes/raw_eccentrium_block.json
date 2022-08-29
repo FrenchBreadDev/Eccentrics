@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "eccentrics:raw_eccentrium"
+    }
+  },
+  "result": {
+    "item": "eccentrics:raw_eccentrium_block",
+    "count": 1
+  },
+  "group": "stuff"
+}

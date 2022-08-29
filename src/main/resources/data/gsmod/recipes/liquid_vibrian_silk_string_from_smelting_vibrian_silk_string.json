@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:smelting",
-    "ingredient": {
-        "item": "gsmod:vibrian_silk_string"
-    },
-    "result": "gsmod:liquid_vibrian_silk_string",
-    "experience": 0.1,
-    "cookingtime": 400
-}

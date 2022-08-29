@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "eccentrics:hardened_eccentrium_crystal"
+    }
+  },
+  "result": {
+    "item": "eccentrics:hardened_eccentrium_crystal_block",
+    "count": 1
+  },
+  "group": "stuff"
+}

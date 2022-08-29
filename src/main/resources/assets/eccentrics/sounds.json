@@ -1,0 +1,10 @@
+{
+  "music_disc_fragments": {
+    "sounds": [
+      {
+        "name": "eccentrics:music_disc_fragments",
+        "stream": true
+      }
+    ]
+  }
+}

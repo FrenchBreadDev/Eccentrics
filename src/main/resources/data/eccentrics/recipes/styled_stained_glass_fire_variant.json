@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "nEn",
+    "EDE",
+    "nEn"
+  ],
+  "key": {
+    "n": {
+      "item": "minecraft:red_dye"
+    },
+    "E": {
+      "item": "minecraft:orange_dye"
+    },
+    "D": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "eccentrics:styled_stained_glass_fire_variant",
+    "count": 8
+  }
+}

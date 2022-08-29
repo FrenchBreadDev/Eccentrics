@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "eccentrics:raw_eccentrium_block"
+    }
+  ],
+  "result": {
+    "item": "eccentrics:raw_eccentrium",
+    "count": 9
+  },
+  "group": "stuff"
+}

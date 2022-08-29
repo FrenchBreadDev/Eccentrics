@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "eccentrics:item/dark_eccentrium_crystal"
+  }
+}
