@@ -36,6 +36,22 @@ public class ModLootTableModifiers {
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1f, 1f)).build());
                 tableBuilder.pool(poolBuilder.build());
             }
+            if (END_CITY_TREASURE_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.15f)) // Drops 15% of the time
+                        .with(ItemEntry.builder(ModItems.MUSIC_DISC_FRAGMENTS))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1f, 1f)).build());
+                tableBuilder.pool(poolBuilder.build());
+            }
+            if (END_CITY_TREASURE_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.9f)) // Drops 9% of the time
+                        .with(ItemEntry.builder(ModItems.MUSIC_DISC_THE_CITADEL))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1f, 1f)).build());
+                tableBuilder.pool(poolBuilder.build());
+            }
         });
             }
     }

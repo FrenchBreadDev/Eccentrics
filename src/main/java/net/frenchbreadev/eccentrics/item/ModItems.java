@@ -4,10 +4,12 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.frenchbreadev.eccentrics.EccentricsMod;
 import net.frenchbreadev.eccentrics.item.custom.ModArmorItem;
 import net.frenchbreadev.eccentrics.item.custom.ModArmorItem2;
+import net.frenchbreadev.eccentrics.item.custom.ModLevitationSwordItem;
 import net.frenchbreadev.eccentrics.item.custom.ModMusicDiscItem;
 import net.frenchbreadev.eccentrics.sound.ModSounds;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.Item;
+import net.minecraft.item.ToolMaterial;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -55,6 +57,14 @@ public class ModItems {
     public static final Item MUSIC_DISC_FRAGMENTS = registerItem("music_disc_fragments",
             new ModMusicDiscItem(7, ModSounds.MUSIC_DISC_FRAGMENTS,
                     new FabricItemSettings().group(ModItemGroup.ECCENTRICS).maxCount(1)));
+
+    public static final Item MUSIC_DISC_THE_CITADEL = registerItem("music_disc_the_citadel",
+            new ModMusicDiscItem(7, ModSounds.MUSIC_DISC_THE_CITADEL,
+                    new FabricItemSettings().group(ModItemGroup.ECCENTRICS).maxCount(1)));
+
+    public static final Item HARDENED_ECCENTRIUM_CRYSTAL_BLADE = registerItem("hardened_eccentrium_crystal_blade",
+            new ModLevitationSwordItem((ToolMaterial) ModToolMaterials.ECCENTRIUM, (int) 10.5, 2.5f,
+                    (Item.Settings) new FabricItemSettings().group(ModItemGroup.ECCENTRICS)));
 
 
 

@@ -6,5 +6,13 @@
         "stream": true
       }
     ]
+  },
+  "music_disc_the_citadel": {
+        "sounds": [
+          {
+            "name": "eccentrics:music_disc_the_citadel",
+            "stream": true
+          }
+    ]
   }
 }

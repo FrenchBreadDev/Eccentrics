@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "g#g",
+    " E "
+  ],
+  "key": {
+    "#": {
+      "item": "eccentrics:hardened_eccentrium_crystal"
+    },
+    "g": {
+      "item": "minecraft:gold_ingot"
+    },
+    "E": {
+      "item": "eccentrics:dark_eccentrium_crystal"
+    }
+  },
+  "result": {
+    "item": "eccentrics:hardened_eccentrium_crystal_blade",
+    "count": 1
+  }
+}
