@@ -53,6 +53,30 @@ public class ModBlocks {
     public static final Block STYLED_STAINED_GLASS_BEDROCK_VARIANT = registerBlock("styled_stained_glass_bedrock_variant",
             new GlassBlock(FabricBlockSettings.copy(Blocks.GLASS).hardness(150.0f).resistance(2800.0f).nonOpaque()));
 
+    public static final Block PURPLE_CRYSTAL_LANTERN = registerBlock("purple_crystal_lantern",
+            new ObsidianGlassLightBlock(FabricBlockSettings.copy(Blocks.GLASS).strength(4.5f).nonOpaque().requiresTool()
+                    .luminance(state -> state.get(ObsidianGlassLightBlock.LIT) ? 15  : 0)));
+
+    public static final Block AQUA_CRYSTAL_LANTERN = registerBlock("aqua_crystal_lantern",
+            new ObsidianGlassLightBlock(FabricBlockSettings.copy(Blocks.GLASS).strength(4.5f).nonOpaque().requiresTool()
+                    .luminance(state -> state.get(ObsidianGlassLightBlock.LIT) ? 15  : 0)));
+
+    public static final Block CRYSTAL_LANTERN = registerBlock("crystal_lantern",
+            new ObsidianGlassLightBlock(FabricBlockSettings.copy(Blocks.GLASS).strength(4.5f).nonOpaque().requiresTool()
+                    .luminance(state -> state.get(ObsidianGlassLightBlock.LIT) ? 15  : 0)));
+
+    public static final Block DARK_RED_CRYSTAL_LANTERN = registerBlock("dark_red_crystal_lantern",
+            new ObsidianGlassLightBlock(FabricBlockSettings.copy(Blocks.GLASS).strength(4.5f).nonOpaque().requiresTool()
+                    .luminance(state -> state.get(ObsidianGlassLightBlock.LIT) ? 15  : 0)));
+
+    public static final Block BLUE_CRYSTAL_LANTERN = registerBlock("blue_crystal_lantern",
+            new ObsidianGlassLightBlock(FabricBlockSettings.copy(Blocks.GLASS).strength(4.5f).nonOpaque().requiresTool()
+                    .luminance(state -> state.get(ObsidianGlassLightBlock.LIT) ? 15  : 0)));
+
+    public static final Block ORANGE_CRYSTAL_LANTERN = registerBlock("orange_crystal_lantern",
+            new ObsidianGlassLightBlock(FabricBlockSettings.copy(Blocks.GLASS).strength(4.5f).nonOpaque().requiresTool()
+                    .luminance(state -> state.get(ObsidianGlassLightBlock.LIT) ? 15  : 0)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
     return Registry.register(Registry.BLOCK, new Identifier(EccentricsMod.MOD_ID, name), block);

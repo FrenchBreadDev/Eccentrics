@@ -21,7 +21,7 @@ public class ModLevitationSwordItem extends SwordItem {
 
     @Override
     public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker) {
-    target.addStatusEffect(new StatusEffectInstance(StatusEffects.LEVITATION, 5, 1), attacker);
+    target.addStatusEffect(new StatusEffectInstance(StatusEffects.POISON, 5, 1), attacker);
     return super.postHit(stack, target, attacker);
 
     }
@@ -29,7 +29,7 @@ public class ModLevitationSwordItem extends SwordItem {
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
         if(Screen.hasShiftDown()) {
             tooltip.add(Text.literal("§7This Weapon Inflicts The Effect:"));
-            tooltip.add(Text.literal("§6Levitation II (0:05)"));
+            tooltip.add(Text.literal("§cpoison II (0:05)"));
         } else {
             tooltip.add(Text.literal("Press §eSHIFT§r for More Info"));
         }

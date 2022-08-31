@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#O#",
+    "CSC",
+    "#O#"
+  ],
+  "key": {
+    "#": {
+      "item": "eccentrics:dark_eccentrium_crystal"
+    },
+    "O": {
+      "item": "minecraft:light_blue_stained_glass"
+    },
+    "C": {
+      "item": "minecraft:cyan_stained_glass"
+    },
+    "S": {
+      "item": "minecraft:sea_lantern"
+    }
+  },
+  "result": {
+    "item": "eccentrics:aqua_crystal_lantern",
+    "count": 8
+  },
+  "group": "stuff"
+}

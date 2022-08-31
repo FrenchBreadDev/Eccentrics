@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "eccentrics:item/hardened_eccentrium_crystal_blade"
-  }
-}

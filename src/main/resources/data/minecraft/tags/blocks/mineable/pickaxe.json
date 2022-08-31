@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "eccentrics:eccentrium_ore",
+    "eccentrics:raw_eccentrium_block",
+    "eccentrics:hardened_eccentrium_crystal_block",
+    "eccentrics:dark_eccentrium_lantern",
+    "eccentrics:styled_stained_glass_elemental_variant",
+    "eccentrics:styled_stained_glass_water_variant",
+    "eccentrics:styled_stained_glass_fire_variant",
+    "eccentrics:styled_stained_glass_nature_variant",
+    "eccentrics:styled_stained_glass_wind_variant",
+    "eccentrics:styled_stained_glass_obsidian_variant",
+    "eccentrics:styled_stained_glass_bedrock_variant",
+    "eccentrics:damaged_bedrock",
+    "eccentrics:purple_crystal_lantern",
+    "eccentrics:aqua_crystal_lantern",
+    "eccentrics:crystal_lantern",
+    "eccentrics:dark_red_crystal_lantern",
+    "eccentrics:blue_crystal_lantern",
+    "eccentrics:orange_crystal_lantern"
+  ]
+}
