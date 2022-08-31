@@ -28,10 +28,6 @@ public class ModBlocks {
             new ObsidianGlassLightBlock(FabricBlockSettings.copy(Blocks.GLASS).strength(8f).nonOpaque().requiresTool()
                     .luminance(state -> state.get(ObsidianGlassLightBlock.LIT) ? 15  : 0)));
 
-    public static final Block STYLED_STAINED_GLASS_ELEMENTAL_VARIANT = registerBlock("styled_stained_glass_elemental_variant",
-            new ObsidianGlassLightBlock(FabricBlockSettings.copy(Blocks.GLASS).strength(4.5f).nonOpaque().requiresTool()
-                    .luminance(state -> state.get(ObsidianGlassLightBlock.LIT) ? 15  : 0)));
-
     public static final Block DAMAGED_BEDROCK = registerBlock("damaged_bedrock",
             new Block(FabricBlockSettings.of(Material.STONE).hardness(200.0f).resistance(4800.0f).requiresTool()));
 
@@ -74,6 +70,30 @@ public class ModBlocks {
                     .luminance(state -> state.get(ObsidianGlassLightBlock.LIT) ? 15  : 0)));
 
     public static final Block ORANGE_CRYSTAL_LANTERN = registerBlock("orange_crystal_lantern",
+            new ObsidianGlassLightBlock(FabricBlockSettings.copy(Blocks.GLASS).strength(4.5f).nonOpaque().requiresTool()
+                    .luminance(state -> state.get(ObsidianGlassLightBlock.LIT) ? 15  : 0)));
+
+    public static final Block GREEN_CRYSTAL_LANTERN = registerBlock("green_crystal_lantern",
+            new ObsidianGlassLightBlock(FabricBlockSettings.copy(Blocks.GLASS).strength(4.5f).nonOpaque().requiresTool()
+                    .luminance(state -> state.get(ObsidianGlassLightBlock.LIT) ? 15  : 0)));
+
+    public static final Block YELLOW_CRYSTAL_LANTERN = registerBlock("yellow_crystal_lantern",
+            new ObsidianGlassLightBlock(FabricBlockSettings.copy(Blocks.GLASS).strength(4.5f).nonOpaque().requiresTool()
+                    .luminance(state -> state.get(ObsidianGlassLightBlock.LIT) ? 15  : 0)));
+
+    public static final Block DARK_AQUA_CRYSTAL_LANTERN = registerBlock("dark_aqua_crystal_lantern",
+            new ObsidianGlassLightBlock(FabricBlockSettings.copy(Blocks.GLASS).strength(4.5f).nonOpaque().requiresTool()
+                    .luminance(state -> state.get(ObsidianGlassLightBlock.LIT) ? 15  : 0)));
+
+    public static final Block RED_CRYSTAL_LANTERN = registerBlock("red_crystal_lantern",
+            new ObsidianGlassLightBlock(FabricBlockSettings.copy(Blocks.GLASS).strength(4.5f).nonOpaque().requiresTool()
+                    .luminance(state -> state.get(ObsidianGlassLightBlock.LIT) ? 15  : 0)));
+
+    public static final Block DARK_BLUE_CRYSTAL_LANTERN = registerBlock("dark_blue_crystal_lantern",
+            new ObsidianGlassLightBlock(FabricBlockSettings.copy(Blocks.GLASS).strength(4.5f).nonOpaque().requiresTool()
+                    .luminance(state -> state.get(ObsidianGlassLightBlock.LIT) ? 15  : 0)));
+
+    public static final Block PINK_CRYSTAL_LANTERN = registerBlock("pink_crystal_lantern",
             new ObsidianGlassLightBlock(FabricBlockSettings.copy(Blocks.GLASS).strength(4.5f).nonOpaque().requiresTool()
                     .luminance(state -> state.get(ObsidianGlassLightBlock.LIT) ? 15  : 0)));
 

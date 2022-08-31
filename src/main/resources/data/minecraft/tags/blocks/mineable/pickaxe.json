@@ -18,6 +18,13 @@
     "eccentrics:crystal_lantern",
     "eccentrics:dark_red_crystal_lantern",
     "eccentrics:blue_crystal_lantern",
-    "eccentrics:orange_crystal_lantern"
+    "eccentrics:orange_crystal_lantern",
+    "eccentrics:green_crystal_lantern",
+    "eccentrics:yellow_crystal_lantern",
+    "eccentrics:dark_aqua_crystal_lantern",
+    "eccentrics:yellow_crystal_lantern",
+    "eccentrics:red_crystal_lantern",
+    "eccentrics:dark_blue_crystal_lantern",
+    "eccentrics:pink_crystal_lantern"
   ]
 }

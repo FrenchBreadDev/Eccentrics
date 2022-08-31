@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "eccentrics:block/dark_aqua_crystal_lantern"
+  }
+}

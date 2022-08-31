@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "eccentrics:block/styled_stained_glass_elemental_variant_off"
-  }
-}

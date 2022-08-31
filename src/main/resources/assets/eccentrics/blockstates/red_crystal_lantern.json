@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true": { "model": "eccentrics:block/red_crystal_lantern" },
+    "lit=false": { "model": "eccentrics:block/red_crystal_lantern_off" }
+  }
+}

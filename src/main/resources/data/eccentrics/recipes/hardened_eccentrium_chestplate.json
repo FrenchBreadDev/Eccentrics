@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "#E#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "eccentrics:hardened_eccentrium_crystal"
+    },
+    "E": {
+      "item": "eccentrics:citadel_star_fragment"
+    }
+  },
+  "result": {
+    "item": "eccentrics:hardened_eccentrium_chestplate",
+    "count": 1
+  },
+  "group": "Stuff"
+}
