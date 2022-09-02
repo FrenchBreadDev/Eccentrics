@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "eccentrics:block/lime_green_crystal_lantern"
+  }
+}

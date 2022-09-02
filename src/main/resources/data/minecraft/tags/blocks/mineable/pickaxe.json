@@ -25,6 +25,12 @@
     "eccentrics:yellow_crystal_lantern",
     "eccentrics:red_crystal_lantern",
     "eccentrics:dark_blue_crystal_lantern",
-    "eccentrics:pink_crystal_lantern"
+    "eccentrics:pink_crystal_lantern",
+    "eccentrics:black_crystal_lantern",
+    "eccentrics:white_crystal_lantern",
+    "eccentrics:light_gray_crystal_lantern",
+    "eccentrics:gray_crystal_lantern",
+    "eccentrics:lime_green_crystal_lantern",
+    "eccentrics:styled_stained_glass_oxdizing_coppper_variant"
   ]
 }

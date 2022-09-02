@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "nEn",
+    "EDE",
+    "nEn"
+  ],
+  "key": {
+    "n": {
+      "item": "minecraft:cyan_dye"
+    },
+    "E": {
+      "item": "minecraft:copper_ingot"
+    },
+    "D": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "eccentrics:styled_stained_glass_oxdizing_coppper_variant",
+    "count": 8
+  }
+}

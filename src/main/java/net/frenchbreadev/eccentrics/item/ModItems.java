@@ -16,51 +16,57 @@ public class ModItems {
                    //new FabricItemSettings().group(ModItemGroup.ECCENTRICS)));
 
     public static final Item RAW_ECCENTRIUM = registerItem("raw_eccentrium",
-            new Item(new FabricItemSettings().group(ModItemGroup.ECCENTRICS)));
+            new Item(new FabricItemSettings().group(ModItemGroup.ECCENTRICSMISC)));
 
     public static final Item HARDENED_ECCENTRIUM_CRYSTAL = registerItem("hardened_eccentrium_crystal",
-            new Item(new FabricItemSettings().group(ModItemGroup.ECCENTRICS)));
+            new Item(new FabricItemSettings().group(ModItemGroup.ECCENTRICSMISC)));
 
     public static final Item DARK_ECCENTRIUM_CRYSTAL = registerItem("dark_eccentrium_crystal",
-            new Item(new FabricItemSettings().group(ModItemGroup.ECCENTRICS)));
+            new Item(new FabricItemSettings().group(ModItemGroup.ECCENTRICSMISC)));
 
     public static final Item CITADEL_STAR_FRAGMENT = registerItem("citadel_star_fragment",
-            new Item(new FabricItemSettings().group(ModItemGroup.ECCENTRICS)));
+            new Item(new FabricItemSettings().group(ModItemGroup.ECCENTRICSMISC)));
 
 
     public static final Item CITADEL_STAR = registerItem("citadel_star",
-            new Item(new FabricItemSettings().group(ModItemGroup.ECCENTRICS)));
+            new Item(new FabricItemSettings().group(ModItemGroup.ECCENTRICSMISC)));
 
     public static final Item HARDENED_ECCENTRIUM_HELMET = registerItem("hardened_eccentrium_helmet",
             new ModArmorItem(ModArmorMaterials.HARDENED_ECCENTRIUM, EquipmentSlot.HEAD,
-                    new FabricItemSettings().group(ModItemGroup.ECCENTRICS)));
+                    new FabricItemSettings().group(ModItemGroup.ECCENTRICSCOMBAT)));
 
     public static final Item HARDENED_ECCENTRIUM_CHESTPLATE = registerItem("hardened_eccentrium_chestplate",
             new ModArmorItem(ModArmorMaterials.HARDENED_ECCENTRIUM, EquipmentSlot.CHEST,
-                    new FabricItemSettings().group(ModItemGroup.ECCENTRICS)));
+                    new FabricItemSettings().group(ModItemGroup.ECCENTRICSCOMBAT)));
 
     public static final Item HARDENED_ECCENTRIUM_LEGGINGS = registerItem("hardened_eccentrium_leggings",
             new ModArmorItem2(ModArmorMaterials.HARDENED_ECCENTRIUM, EquipmentSlot.LEGS,
-                    new FabricItemSettings().group(ModItemGroup.ECCENTRICS)));
+                    new FabricItemSettings().group(ModItemGroup.ECCENTRICSCOMBAT)));
 
     public static final Item HARDENED_ECCENTRIUM_BOOTS = registerItem("hardened_eccentrium_boots",
             new ModArmorItem2(ModArmorMaterials.HARDENED_ECCENTRIUM, EquipmentSlot.FEET,
-                    new FabricItemSettings().group(ModItemGroup.ECCENTRICS)));
+                    new FabricItemSettings().group(ModItemGroup.ECCENTRICSCOMBAT)));
 
     public static final Item BEDROCK_FRAGMENT = registerItem("bedrock_fragment",
-            new Item(new FabricItemSettings().group(ModItemGroup.ECCENTRICS)));
+            new Item(new FabricItemSettings().group(ModItemGroup.ECCENTRICSMISC)));
 
     public static final Item MUSIC_DISC_FRAGMENTS = registerItem("music_disc_fragments",
             new ModMusicDiscItem(7, ModSounds.MUSIC_DISC_FRAGMENTS,
-                    new FabricItemSettings().group(ModItemGroup.ECCENTRICS).maxCount(1)));
+                    new FabricItemSettings().group(ModItemGroup.ECCENTRICSMISC).maxCount(1)));
 
     public static final Item MUSIC_DISC_THE_CITADEL = registerItem("music_disc_the_citadel",
             new ModMusicDiscItem(7, ModSounds.MUSIC_DISC_THE_CITADEL,
-                    new FabricItemSettings().group(ModItemGroup.ECCENTRICS).maxCount(1)));
+                    new FabricItemSettings().group(ModItemGroup.ECCENTRICSMISC).maxCount(1)));
+
+    public static final Item MUSIC_DISC_SYMPHONY_OF_THE_OVERWORLD = registerItem("music_disc_symphony_of_the_overworld",
+            new ModMusicDiscItem(7, ModSounds.MUSIC_DISC_SYMPHONY_OF_THE_OVERWORLD,
+                    new FabricItemSettings().group(ModItemGroup.ECCENTRICSMISC).maxCount(1)));
 
     public static final Item HARDENED_ECCENTRIUM_CRYSTAL_BLADE = registerItem("hardened_eccentrium_crystal_blade",
             new ModLevitationSwordItem(ModToolMaterials.ECCENTRIUM, 7, 0.1f,
-                    new FabricItemSettings().group(ModItemGroup.ECCENTRICS)));
+                    new FabricItemSettings().group(ModItemGroup.ECCENTRICSCOMBAT)));
+
+
 
 
 

@@ -14,5 +14,13 @@
             "stream": true
           }
     ]
+  },
+  "music_disc_symphony_of_the_overworld": {
+        "sounds": [
+          {
+            "name": "eccentrics:music_disc_symphony_of_the_overworld",
+            "stream": true
+          }
+    ]
   }
 }

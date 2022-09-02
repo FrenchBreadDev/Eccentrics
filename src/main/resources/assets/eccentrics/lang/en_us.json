@@ -5,6 +5,8 @@
   "item.eccentrics.music_disc_fragments.desc": "FrenchBread - Fragments",
   "item.eccentrics.music_disc_the_citadel": "§bMusic Disc",
   "item.eccentrics.music_disc_the_citadel.desc": "FrenchBread - The Citadel",
+  "item.eccentrics.music_disc_symphony_of_the_overworld": "§bMusic Disc",
+  "item.eccentrics.music_disc_symphony_of_the_overworld.desc": "FrenchBread - Symphony Of The Overworld",
   "item.eccentrics.citadel_star_fragment": "§eCitadel Star Fragment",
   "item.eccentrics.citadel_star": "§eCitadel Star",
   "item.eccentrics.raw_eccentrium": "Raw Eccentrium",
@@ -19,6 +21,7 @@
   "block.eccentrics.styled_stained_glass_fire_variant": "§7Styled Stained Glass (§cFire§7)§r",
   "block.eccentrics.styled_stained_glass_nature_variant": "§7Styled Stained Glass (§2Nature§7)§r",
   "block.eccentrics.styled_stained_glass_wind_variant": "§7Styled Stained Glass (§8Wind§7)§r",
+  "block.eccentrics.styled_stained_glass_oxdizing_coppper_variant": "§7Styled Stained Glass (§6O§3x§6i§3d§6i§3z§6i§3n§6g §3C§6o§3p§6p§3e§6r§7)§r",
   "block.eccentrics.styled_stained_glass_obsidian_variant": "§7Styled Stained Glass (§8O§db§8s§di§8d§di§8a§dn§7)§r",
   "block.eccentrics.styled_stained_glass_bedrock_variant": "§7Styled Stained Glass (§8B§7e§fd§8r§7o§fc§8k)§r",
   "block.eccentrics.damaged_bedrock": "§7Damaged Bedrock",
@@ -36,6 +39,13 @@
   "block.eccentrics.red_crystal_lantern": "§7Crystal Lantern (§cRed§7)§r",
   "block.eccentrics.dark_blue_crystal_lantern": "§7Crystal Lantern (§1Dark Blue§7)§r",
   "block.eccentrics.pink_crystal_lantern": "§7Crystal Lantern (§dPink§7)§r",
+  "block.eccentrics.black_crystal_lantern": "§7Crystal Lantern (§0Black§7)§r",
+  "block.eccentrics.white_crystal_lantern": "§7Crystal Lantern (§fWhite§7)§r",
+  "block.eccentrics.light_gray_crystal_lantern": "§7Crystal Lantern (§7Light Gray§7)§r",
+  "block.eccentrics.gray_crystal_lantern": "§7Crystal Lantern (§8Gray§7)§r",
+  "block.eccentrics.lime_green_crystal_lantern": "§7Crystal Lantern (§aLime Green§7)§r",
   "block.eccentrics.crystal_lantern": "§7Crystal Lantern§r",
-  "itemGroup.eccentrics.eccentrics": "Eccentrics"
+  "itemGroup.eccentrics.eccentricscombat": "§dEccentrics§8:§7 Combat",
+  "itemGroup.eccentrics.eccentricsmisc": "§dEccentrics§8:§7 Miscellaneous",
+  "itemGroup.eccentrics.eccentricsblocks": "§dEccentrics§8:§7 Blocks"
 }

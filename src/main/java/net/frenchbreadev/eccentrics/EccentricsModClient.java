@@ -30,6 +30,11 @@ public class EccentricsModClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RED_CRYSTAL_LANTERN, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.DARK_BLUE_CRYSTAL_LANTERN, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINK_CRYSTAL_LANTERN, RenderLayer.getTranslucent());
-
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLACK_CRYSTAL_LANTERN, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WHITE_CRYSTAL_LANTERN, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_GRAY_CRYSTAL_LANTERN, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRAY_CRYSTAL_LANTERN, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIME_GREEN_CRYSTAL_LANTERN, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.STYLED_STAINED_OXIDIZING_COPPER_VARIANT, RenderLayer.getTranslucent());
     }
 }
