@@ -24,7 +24,12 @@
   "block.eccentrics.styled_stained_glass_oxdizing_coppper_variant": "§7Styled Stained Glass (§6O§3x§6i§3d§6i§3z§6i§3n§6g §3C§6o§3p§6p§3e§6r§7)§r",
   "block.eccentrics.styled_stained_glass_obsidian_variant": "§7Styled Stained Glass (§8O§db§8s§di§8d§di§8a§dn§7)§r",
   "block.eccentrics.styled_stained_glass_bedrock_variant": "§7Styled Stained Glass (§8B§7e§fd§8r§7o§fc§8k)§r",
-  "block.eccentrics.damaged_bedrock": "§7Damaged Bedrock",
+  "block.eccentrics.impure_bedrock": "§7Impure Bedrock",
+  "item.eccentrics.impure_bedrock_broadsword": "§7Impure Bedrock Broadsword",
+  "item.eccentrics.impure_bedrock_helmet": "§7Impure Bedrock Helmet",
+  "item.eccentrics.impure_bedrock_chestplate": "§7Impure Bedrock Chestplate",
+  "item.eccentrics.impure_bedrock_leggings": "§7Impure Bedrock Leggings",
+  "item.eccentrics.impure_bedrock_boots": "§7Impure Bedrock Boots",
   "block.eccentrics.raw_eccentrium_block": "Raw Eccentrium Block",
   "block.eccentrics.hardened_eccentrium_crystal_block": "Hardened Eccentrium Crystal Block",
   "block.eccentrics.dark_eccentrium_lantern": "Dark Eccentrium Lantern",
@@ -45,7 +50,7 @@
   "block.eccentrics.gray_crystal_lantern": "§7Crystal Lantern (§8Gray§7)§r",
   "block.eccentrics.lime_green_crystal_lantern": "§7Crystal Lantern (§aLime Green§7)§r",
   "block.eccentrics.crystal_lantern": "§7Crystal Lantern§r",
-  "itemGroup.eccentrics.eccentricscombat": "§dEccentrics§8:§7 Combat",
+  "itemGroup.eccentrics.eccentricscombat": "§dEccentrics§8:§7 Tools & Combat",
   "itemGroup.eccentrics.eccentricsmisc": "§dEccentrics§8:§7 Miscellaneous",
   "itemGroup.eccentrics.eccentricsblocks": "§dEccentrics§8:§7 Blocks"
 }

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "nEn",
+    "E E"
+  ],
+  "key": {
+    "n": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "E": {
+      "item": "eccentrics:bedrock_fragment"
+    }
+  },
+  "result": {
+    "item": "eccentrics:impure_bedrock_helmet",
+    "count": 1
+  }
+}

@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "eccentrics:block/damaged_bedrock"
-  }
-}

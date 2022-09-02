@@ -4,13 +4,13 @@
   "version": "${version}",
 
   "name": "Eccentrics",
-  "description": "Adds a plethora of random items, blocks and one set of gear/armor. Pro-tip: don't ask for forge or I'll  take your joints :)",
+  "description": "Adds many new blocks, items, armor, tools, and some new discs. Pro-tip: don't ask for forge or I'll  take your joints :)",
   "authors": [
     "FrenchBread"
   ],
   "contact": {
-    "homepage": "https://github.com/FrenchBreadDev/EccentricsModMain",
-    "issues": "https://github.com/FrenchBreadDev/EccentricsModMain/issues"
+    "homepage": "https://github.com/FrenchBreadDev/Eccentricss",
+    "issues": "https://github.com/FrenchBreadDev/Eccentrics/issues"
   },
 
   "license": "MIT License",
@@ -19,10 +19,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.frenchbreadev.eccentrics.EccentricsMod"
+      "net.frenchbread.eccentrics.EccentricsMod"
     ],
     "client": [
-      "net.frenchbreadev.eccentrics.EccentricsModClient"
+      "net.frenchbread.eccentrics.EccentricsModClient"
     ]
   },
   "mixins": [

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "nEn",
+    "EDE",
+    "nEn"
+  ],
+  "key": {
+    "n": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "E": {
+      "item": "eccentrics:bedrock_fragment"
+    },
+    "D": {
+      "item": "eccentrics:citadel_star"
+    }
+  },
+  "result": {
+    "item": "eccentrics:impure_bedrock",
+    "count": 1
+  }
+}
