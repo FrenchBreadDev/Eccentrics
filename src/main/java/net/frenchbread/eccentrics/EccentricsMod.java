@@ -25,5 +25,6 @@ public class EccentricsMod implements ModInitializer {
 		ModOreGeneration.generateOres();
 
 		ModLootTableModifiers.modifyLootTables();
+
 	}
 }

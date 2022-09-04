@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 10,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:redstone",
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "name": "eccentrics:dark_red_crystal_lantern",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:redstone_block",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "rolls": 4,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "item",
+          "name": "eccentrics:dark_eccentrium_crystal",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_apple",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
+

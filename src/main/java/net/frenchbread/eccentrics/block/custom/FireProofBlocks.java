@@ -14,6 +14,9 @@ public class FireProofBlocks {
 
     public static final Block IMPURE_BEDROCK = registerBlock("impure_bedrock",
             new Block(FabricBlockSettings.of(Material.STONE).hardness(200.0f).resistance(4800.0f).requiresTool()));
+
+    public static final Block HEALING_CORE = registerBlock("healing_core",
+            new HealingCore(FabricBlockSettings.of(Material.STONE).hardness(400.0f).resistance(1200.0f).requiresTool()));
     
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
