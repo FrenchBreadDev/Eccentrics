@@ -6,10 +6,11 @@ import net.frenchbread.eccentrics.item.custom.*;
 import net.frenchbread.eccentrics.sound.ModSounds;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.Item;
+import net.minecraft.item.ShovelItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-public class ModItems {
+public abstract class ModItems {
 
     //public static final Item DAMAGED_GILDSTONE_BLADE = registerItem("damaged_gildstone_blade",
           //new ModWeaknessSwordItem(ModToolMaterials.GILDSTONE, 5, 1f,
@@ -22,14 +23,14 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.ECCENTRICSMISC)));
 
     public static final Item DARK_ECCENTRIUM_CRYSTAL = registerItem("dark_eccentrium_crystal",
-            new Item(new FabricItemSettings().group(ModItemGroup.ECCENTRICSMISC)));
+            new Item(new FabricItemSettings().fireproof().group(ModItemGroup.ECCENTRICSMISC)));
 
     public static final Item CITADEL_STAR_FRAGMENT = registerItem("citadel_star_fragment",
-            new Item(new FabricItemSettings().group(ModItemGroup.ECCENTRICSMISC)));
+            new Item(new FabricItemSettings().fireproof().group(ModItemGroup.ECCENTRICSMISC)));
 
 
     public static final Item CITADEL_STAR = registerItem("citadel_star",
-            new Item(new FabricItemSettings().group(ModItemGroup.ECCENTRICSMISC)));
+            new Item(new FabricItemSettings().fireproof().group(ModItemGroup.ECCENTRICSMISC)));
 
     public static final Item HARDENED_ECCENTRIUM_HELMET = registerItem("hardened_eccentrium_helmet",
             new ModArmorItem(ModArmorMaterials.HARDENED_ECCENTRIUM, EquipmentSlot.HEAD,
@@ -48,7 +49,7 @@ public class ModItems {
                     new FabricItemSettings().group(ModItemGroup.ECCENTRICSCOMBAT)));
 
     public static final Item BEDROCK_FRAGMENT = registerItem("bedrock_fragment",
-            new Item(new FabricItemSettings().group(ModItemGroup.ECCENTRICSMISC)));
+            new Item(new FabricItemSettings().fireproof().group(ModItemGroup.ECCENTRICSMISC)));
 
     public static final Item MUSIC_DISC_FRAGMENTS = registerItem("music_disc_fragments",
             new ModMusicDiscItem(7, ModSounds.MUSIC_DISC_FRAGMENTS,
@@ -70,23 +71,51 @@ public class ModItems {
 
     public static final Item IMPURE_BEDROCK_HELMET = registerItem("impure_bedrock_helmet",
             new ModArmorItem3(ModArmorMaterials2.IMPURE_BEDROCK, EquipmentSlot.HEAD,
-                    new FabricItemSettings().group(ModItemGroup.ECCENTRICSCOMBAT)));
+                    new FabricItemSettings().fireproof().group(ModItemGroup.ECCENTRICSCOMBAT)));
 
     public static final Item IMPURE_BEDROCK_CHESTPLATE = registerItem("impure_bedrock_chestplate",
         new ModArmorItem3(ModArmorMaterials2.IMPURE_BEDROCK, EquipmentSlot.CHEST,
-                    new FabricItemSettings().group(ModItemGroup.ECCENTRICSCOMBAT)));
+                    new FabricItemSettings().fireproof().group(ModItemGroup.ECCENTRICSCOMBAT)));
 
     public static final Item IMPURE_BEDROCK_LEGGINGS = registerItem("impure_bedrock_leggings",
             new ModArmorItem4(ModArmorMaterials2.IMPURE_BEDROCK, EquipmentSlot.LEGS,
-                    new FabricItemSettings().group(ModItemGroup.ECCENTRICSCOMBAT)));
+                    new FabricItemSettings().fireproof().group(ModItemGroup.ECCENTRICSCOMBAT)));
 
     public static final Item IMPURE_BEDROCK_BOOTS = registerItem("impure_bedrock_boots",
             new ModArmorItem4(ModArmorMaterials2.IMPURE_BEDROCK, EquipmentSlot.FEET,
-                    new FabricItemSettings().group(ModItemGroup.ECCENTRICSCOMBAT)));
+                    new FabricItemSettings().fireproof().group(ModItemGroup.ECCENTRICSCOMBAT)));
 
     public static final Item IMPURE_BEDROCK_BROADSWORD = registerItem("impure_bedrock_broadsword",
             new ModWeaknessSwordItem(ModToolMaterials2.IMPURE_BEDROCK, 8, -3f,
-                    new FabricItemSettings().group(ModItemGroup.ECCENTRICSCOMBAT)));
+                    new FabricItemSettings().fireproof().group(ModItemGroup.ECCENTRICSCOMBAT)));
+
+    public static final Item IMPURE_BEDROCK_AXE = registerItem("impure_bedrock_axe",
+            new ModAxeItem(ModToolMaterials2.IMPURE_BEDROCK, 7, 1f,
+                    new FabricItemSettings().fireproof().group(ModItemGroup.ECCENTRICSCOMBAT)));
+
+    public static final Item IMPURE_BEDROCK_HOE = registerItem("impure_bedrock_hoe",
+            new ModHoeItem(ModToolMaterials2.IMPURE_BEDROCK, 0, 1f,
+                    new FabricItemSettings().fireproof().group(ModItemGroup.ECCENTRICSCOMBAT)));
+
+    public static final Item IMPURE_BEDROCK_SHOVEL = registerItem("impure_bedrock_shovel",
+            new ShovelItem(ModToolMaterials2.IMPURE_BEDROCK, 0, 1f,
+                    new FabricItemSettings().fireproof().group(ModItemGroup.ECCENTRICSCOMBAT)));
+
+    public static final Item IMPURE_BEDROCK_PICKAXE = registerItem("impure_bedrock_pickaxe",
+            new ModPickaxeItem(ModToolMaterials2.IMPURE_BEDROCK, 0, 1f,
+                    new FabricItemSettings().fireproof().group(ModItemGroup.ECCENTRICSCOMBAT)));
+
+    public static final Item UNKNOWN_FRAGMENT = registerItem("unknown_fragment",
+            new Item(new FabricItemSettings().fireproof().group(ModItemGroup.ECCENTRICSMISC)));
+
+    public static final Item HEART_OF_THE_MONUMENT = registerItem("heart_of_the_monument",
+            new HeartOfTheMonument(new FabricItemSettings().group(ModItemGroup.ECCENTRICSMISC)));
+
+    public static final Item ENERGIZED_PRISMARINE = registerItem("energized_prismarine",
+            new Item(new FabricItemSettings().group(ModItemGroup.ECCENTRICSMISC)));
+
+
+
 
 
     private static Item registerItem(String name, Item item) {

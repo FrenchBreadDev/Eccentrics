@@ -1,23 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "nEn",
-    "EEE",
+    " ##",
+    " n#",
     " D "
   ],
   "key": {
+    "#": {
+      "item": "eccentrics:bedrock_fragment"
+    },
     "n": {
       "item": "minecraft:netherite_ingot"
-    },
-    "E": {
-      "item": "eccentrics:bedrock_fragment"
     },
     "D": {
       "item": "minecraft:diamond"
     }
   },
   "result": {
-    "item": "eccentrics:impure_bedrock_broadsword",
+    "item": "eccentrics:impure_bedrock_axe",
     "count": 1
   },
   "group": "Stuff"

@@ -2,6 +2,7 @@ package net.frenchbread.eccentrics;
 
 import net.fabricmc.api.ModInitializer;
 import net.frenchbread.eccentrics.block.ModBlocks;
+import net.frenchbread.eccentrics.block.custom.FireProofBlocks;
 import net.frenchbread.eccentrics.item.ModItems;
 import net.frenchbread.eccentrics.util.ModLootTableModifiers;
 import net.frenchbread.eccentrics.world.feauture.ModConfiguredFeatures;
@@ -18,6 +19,7 @@ public class EccentricsMod implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		FireProofBlocks.registerModBlocks();
 
 		ModConfiguredFeatures.registerConfiguredFeatures();
 		ModOreGeneration.generateOres();

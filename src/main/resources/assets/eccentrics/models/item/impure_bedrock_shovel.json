@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "eccentrics:item/impure_bedrock_shovel"
+  }
+}

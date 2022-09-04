@@ -8,7 +8,7 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-    ECCENTRIUM(MiningLevels.NETHERITE, 2600, 18.0f, 5.5f, 34, () -> Ingredient.ofItems(ModItems.HARDENED_ECCENTRIUM_CRYSTAL));
+    ECCENTRIUM(MiningLevels.NETHERITE, 2600, 18, 5.5f, 34, () -> Ingredient.ofItems(ModItems.HARDENED_ECCENTRIUM_CRYSTAL));
 
     private final int miningLevel;
     private final int itemDurability;

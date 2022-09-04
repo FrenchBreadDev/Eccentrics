@@ -28,9 +28,6 @@ public class ModBlocks {
             new ObsidianGlassLightBlock(FabricBlockSettings.copy(Blocks.GLASS).strength(8f).nonOpaque().requiresTool()
                     .luminance(state -> state.get(ObsidianGlassLightBlock.LIT) ? 15  : 0)));
 
-    public static final Block IMPURE_BEDROCK = registerBlock("impure_bedrock",
-            new Block(FabricBlockSettings.of(Material.STONE).hardness(200.0f).resistance(4800.0f).requiresTool()));
-
     public static final Block STYLED_STAINED_GLASS_WATER_VARIANT = registerBlock("styled_stained_glass_water_variant",
             new GlassBlock(FabricBlockSettings.copy(Blocks.GLASS).strength(4.5f).nonOpaque()));
 

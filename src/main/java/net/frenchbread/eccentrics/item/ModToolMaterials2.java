@@ -8,7 +8,7 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials2 implements ToolMaterial {
-    IMPURE_BEDROCK(MiningLevels.NETHERITE, 3600, 20.0f, 6.5f, 36, () -> Ingredient.ofItems(ModItems.BEDROCK_FRAGMENT));
+    IMPURE_BEDROCK(MiningLevels.NETHERITE, 3600, 20, 6.5f, 36, () -> Ingredient.ofItems(ModItems.BEDROCK_FRAGMENT));
 
     private final int miningLevel;
     private final int itemDurability;
