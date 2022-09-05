@@ -109,10 +109,19 @@ public abstract class ModItems {
             new Item(new FabricItemSettings().fireproof().group(ModItemGroup.ECCENTRICSMISC)));
 
     public static final Item HEART_OF_THE_MONUMENT = registerItem("heart_of_the_monument",
-            new HeartOfTheMonument(new FabricItemSettings().group(ModItemGroup.ECCENTRICSMISC)));
+            new HeartOfTheMonument(new FabricItemSettings().fireproof().group(ModItemGroup.ECCENTRICSMISC)));
 
     public static final Item ENERGIZED_PRISMARINE = registerItem("energized_prismarine",
             new Item(new FabricItemSettings().group(ModItemGroup.ECCENTRICSMISC)));
+
+    public static final Item FRIGID_MAGMA_FRAGMENT = registerItem("frigid_magma_fragment",
+            new Item(new FabricItemSettings().fireproof().group(ModItemGroup.ECCENTRICSMISC)));
+
+    public static final Item FRIGID_GAUNTLET = registerItem("frigid_gauntlet",
+            new FrigidGauntlet(new FabricItemSettings().fireproof().group(ModItemGroup.ECCENTRICSMISC)));
+
+    public static final Item BLAZING_EYE = registerItem("blazing_eye",
+            new BlazingEye(new FabricItemSettings().fireproof().group(ModItemGroup.ECCENTRICSMISC)));
 
 
 

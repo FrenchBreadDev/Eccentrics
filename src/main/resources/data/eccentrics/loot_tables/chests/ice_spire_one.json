@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 16.0,
+                "min": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:blue_ice",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:packed_ice",
+          "weight": 13
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 1.0,
+        "min": 1.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "eccentrics:blazing_eye"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}
+
+//give @s chest{BlockEntityTag:{LootTable:"eccentrics:chests/nether_altar"}}

@@ -5,6 +5,7 @@
     "eccentrics:raw_eccentrium_block",
     "eccentrics:hardened_eccentrium_crystal_block",
     "eccentrics:impure_bedrock",
-    "eccentrics:healing_core"
+    "eccentrics:healing_core",
+    "eccentrics:frigid_magma"
   ]
 }

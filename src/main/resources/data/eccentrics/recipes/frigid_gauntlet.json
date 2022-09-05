@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#E#",
+    "EJE",
+    "#E#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:polished_deepslate"
+    },
+    "E": {
+      "item": "eccentrics:frigid_magma_fragment"
+    },
+    "J": {
+      "item": "eccentrics:bedrock_fragment"
+    }
+  },
+  "result": {
+    "item": "eccentrics:frigid_gauntlet",
+    "count": 1
+  },
+  "group": "Stuff"
+}

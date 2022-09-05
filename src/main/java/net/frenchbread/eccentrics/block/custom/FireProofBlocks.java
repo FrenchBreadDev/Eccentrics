@@ -13,11 +13,14 @@ import net.minecraft.util.registry.Registry;
 public class FireProofBlocks {
 
     public static final Block IMPURE_BEDROCK = registerBlock("impure_bedrock",
-            new Block(FabricBlockSettings.of(Material.STONE).hardness(200.0f).resistance(4800.0f).requiresTool()));
+            new Block(FabricBlockSettings.of(Material.STONE).hardness(600.0f).resistance(9600.0f).requiresTool()));
 
     public static final Block HEALING_CORE = registerBlock("healing_core",
             new HealingCore(FabricBlockSettings.of(Material.STONE).hardness(400.0f).resistance(1200.0f).requiresTool()));
-    
+
+    public static final Block FRIGID_MAGMA = registerBlock("frigid_magma",
+            new FrigidMagma(FabricBlockSettings.of(Material.STONE).hardness(200.0f).resistance(600.0f).requiresTool()));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registry.BLOCK, new Identifier(EccentricsMod.MOD_ID, name), block);
