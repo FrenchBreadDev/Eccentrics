@@ -21,6 +21,10 @@ public class FireProofBlocks {
     public static final Block FRIGID_MAGMA = registerBlock("frigid_magma",
             new FrigidMagma(FabricBlockSettings.of(Material.STONE).hardness(200.0f).resistance(600.0f).requiresTool()));
 
+    public static final Block END_STONE_FLOAT_BLOCK = registerBlock("end_stone_float_block",
+            new EndBoostBlock(FabricBlockSettings.of(Material.STONE).nonOpaque().hardness(150.0f).resistance(300.0f).requiresTool()));
+
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registry.BLOCK, new Identifier(EccentricsMod.MOD_ID, name), block);

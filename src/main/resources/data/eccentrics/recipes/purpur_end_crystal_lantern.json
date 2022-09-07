@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#P#",
+    "PEP",
+    "#P#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:purpur_block"
+    },
+    "P": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "E": {
+      "item": "minecraft:end_crystal"
+    }
+  },
+  "result": {
+    "item": "eccentrics:purpur_end_crystal_lantern",
+    "count": 1
+  },
+  "group": "Stuff"
+}

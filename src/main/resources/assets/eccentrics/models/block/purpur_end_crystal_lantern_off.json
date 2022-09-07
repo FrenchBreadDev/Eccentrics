@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "eccentrics:block/purpur_end_crystal_lantern_off"
+  }
+}

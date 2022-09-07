@@ -6,6 +6,7 @@
     "eccentrics:hardened_eccentrium_crystal_block",
     "eccentrics:impure_bedrock",
     "eccentrics:healing_core",
-    "eccentrics:frigid_magma"
+    "eccentrics:frigid_magma",
+    "eccentrics:end_stone_float_block"
   ]
 }

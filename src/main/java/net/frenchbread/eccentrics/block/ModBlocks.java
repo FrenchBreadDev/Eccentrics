@@ -117,6 +117,14 @@ public class ModBlocks {
             new ObsidianGlassLightBlock(FabricBlockSettings.copy(Blocks.GLASS).strength(4.5f).nonOpaque().requiresTool()
                     .luminance(state -> state.get(ObsidianGlassLightBlock.LIT) ? 15  : 0)));
 
+    public static final Block END_CRYSTAL_LANTERN = registerBlock("end_crystal_lantern",
+            new ObsidianGlassLightBlock(FabricBlockSettings.copy(Blocks.GLASS).strength(4.5f).nonOpaque().requiresTool()
+                    .luminance(state -> state.get(ObsidianGlassLightBlock.LIT) ? 15  : 0)));
+
+    public static final Block PURPUR_END_CRYSTAL_LANTERN = registerBlock("purpur_end_crystal_lantern",
+            new ObsidianGlassLightBlock(FabricBlockSettings.copy(Blocks.GLASS).strength(4.5f).nonOpaque().requiresTool()
+                    .luminance(state -> state.get(ObsidianGlassLightBlock.LIT) ? 15  : 0)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
     return Registry.register(Registry.BLOCK, new Identifier(EccentricsMod.MOD_ID, name), block);

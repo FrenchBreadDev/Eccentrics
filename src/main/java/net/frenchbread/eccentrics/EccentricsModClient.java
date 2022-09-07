@@ -3,6 +3,7 @@ package net.frenchbread.eccentrics;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.frenchbread.eccentrics.block.ModBlocks;
+import net.frenchbread.eccentrics.block.custom.FireProofBlocks;
 import net.minecraft.client.render.RenderLayer;
 
 public class EccentricsModClient implements ClientModInitializer {
@@ -36,5 +37,8 @@ public class EccentricsModClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRAY_CRYSTAL_LANTERN, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIME_GREEN_CRYSTAL_LANTERN, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.STYLED_STAINED_OXIDIZING_COPPER_VARIANT, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(FireProofBlocks.END_STONE_FLOAT_BLOCK, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.END_CRYSTAL_LANTERN, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PURPUR_END_CRYSTAL_LANTERN, RenderLayer.getTranslucent());
     }
 }
