@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "eccentrics:block/stripped_irrendium_stem",
+    "side": "eccentrics:block/stripped_irrendium_stem"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "eccentrics:block/irrendium_leaves"
+  }
+}

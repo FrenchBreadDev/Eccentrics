@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "eccentrics:block/irrendium_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "eccentrics:block/irrendium_wood"
+    },
+    "axis=z": {
+      "model": "eccentrics:block/irrendium_wood",
+      "x": 90
+    }
+  }
+}

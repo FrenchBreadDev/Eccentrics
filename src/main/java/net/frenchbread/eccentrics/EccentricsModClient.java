@@ -40,5 +40,9 @@ public class EccentricsModClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(FireProofBlocks.END_STONE_FLOAT_BLOCK, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.END_CRYSTAL_LANTERN, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PURPUR_END_CRYSTAL_LANTERN, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.IRRENDIUM_LEAVES, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.IRRENDIUM_SAPLING, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.IRRENDIUM_DOOR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.IRRENDIUM_TRAPDOOR, RenderLayer.getCutout());
     }
 }

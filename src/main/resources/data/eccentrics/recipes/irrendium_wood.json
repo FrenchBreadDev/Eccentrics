@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "eccentrics:irrendium_stem"
+    },
+    {
+      "item": "eccentrics:irrendium_stem"
+    },
+    {
+      "item": "eccentrics:irrendium_stem"
+    },
+    {
+      "item": "eccentrics:irrendium_stem"
+    }
+  ],
+  "result": {
+    "item": "eccentrics:irrendium_wood",
+    "count": 3
+  }
+}

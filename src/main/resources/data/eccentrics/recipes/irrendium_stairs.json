@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "eccentrics:irrendium_planks"
+    }
+  },
+  "result": {
+    "item": "eccentrics:irrendium_stairs",
+    "count": 4
+  },
+  "group": "Stuff"
+}

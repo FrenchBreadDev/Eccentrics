@@ -24,6 +24,13 @@
   "block.eccentrics.purpur_end_crystal_lantern": "§dPurpur End Crystal Lantern",
   "block.eccentrics.end_stone_float_block": "§5End Stone Levitation Block",
   "block.eccentrics.styled_stained_glass_fire_variant": "§7Styled Stained Glass (§cFire§7)§r",
+  "block.eccentrics.irrendium_leaves": "Irrendium Leaves",
+  "block.eccentrics.irrendium_wood": "Irrendium Wood",
+  "block.eccentrics.irrendium_planks": "Irrendium Planks",
+  "block.eccentrics.stripped_irrendium_wood": "Stripped Irrendium Wood",
+  "block.eccentrics.irrendium_stem": "Irrendium Stem",
+  "block.eccentrics.irrendium_sapling": "Irrendium Sapling",
+  "block.eccentrics.stripped_irrendium_stem": "Stripped Irrendium Stem",
   "block.eccentrics.styled_stained_glass_nature_variant": "§7Styled Stained Glass (§2Nature§7)§r",
   "block.eccentrics.styled_stained_glass_wind_variant": "§7Styled Stained Glass (§8Wind§7)§r",
   "block.eccentrics.styled_stained_glass_oxdizing_coppper_variant": "§7Styled Stained Glass (§6O§3x§6i§3d§6i§3z§6i§3n§6g §3C§6o§3p§6p§3e§6r§7)§r",
@@ -55,6 +62,16 @@
   "block.eccentrics.orange_crystal_lantern": "§7Crystal Lantern (§6Orange§7)§r",
   "block.eccentrics.green_crystal_lantern": "§7Crystal Lantern (§2Green§7)§r",
   "block.eccentrics.yellow_crystal_lantern": "§7Crystal Lantern (§eYellow§7)§r",
+  "block.eccentrics.irrendium_slab": "Irrendium Slab",
+  "block.eccentrics.irrendium_stairs": "Irrendium Stairs",
+  "block.eccentrics.irrendium_door": "Irrendium Door",
+  "block.eccentrics.irrendium_trapdoor": "Irrendium Trapdoor",
+
+
+
+
+
+
   "block.eccentrics.dark_aqua_crystal_lantern": "§7Crystal Lantern (§3Dark Aqua§7)§r",
   "block.eccentrics.red_crystal_lantern": "§7Crystal Lantern (§cRed§7)§r",
   "block.eccentrics.dark_blue_crystal_lantern": "§7Crystal Lantern (§1Dark Blue§7)§r",

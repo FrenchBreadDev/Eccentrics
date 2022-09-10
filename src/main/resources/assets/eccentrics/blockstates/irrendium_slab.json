@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "eccentrics:block/irrendium_slab"
+    },
+    "type=double": {
+      "model": "eccentrics:block/irrendium_planks"
+    },
+    "type=top": {
+      "model": "irrendium:block/irrendium_slab_top"
+    }
+  }
+}

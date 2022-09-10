@@ -5,8 +5,10 @@ import net.frenchbread.eccentrics.block.ModBlocks;
 import net.frenchbread.eccentrics.block.custom.FireProofBlocks;
 import net.frenchbread.eccentrics.item.ModItems;
 import net.frenchbread.eccentrics.util.ModLootTableModifiers;
+import net.frenchbread.eccentrics.util.ModRegistries;
 import net.frenchbread.eccentrics.world.feauture.ModConfiguredFeatures;
 import net.frenchbread.eccentrics.world.gen.ModOreGeneration;
+import net.frenchbread.eccentrics.world.gen.ModWorldGen;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -17,14 +19,21 @@ public class EccentricsMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+
+		ModConfiguredFeatures.registerConfiguredFeatures();
+
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		FireProofBlocks.registerModBlocks();
 
-		ModConfiguredFeatures.registerConfiguredFeatures();
+
+		ModRegistries.registerModStuffs();
 		ModOreGeneration.generateOres();
 
 		ModLootTableModifiers.modifyLootTables();
+
+		ModWorldGen.generateModWorldGen();
 
 	}
 }

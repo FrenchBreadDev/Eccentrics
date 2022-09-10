@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "eccentrics:block/irrendium_planks",
+    "side": "eccentrics:block/irrendium_planks",
+    "top": "eccentrics:block/irrendium_planks"
+  }
+}

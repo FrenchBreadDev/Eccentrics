@@ -3,8 +3,9 @@ package net.frenchbread.eccentrics.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.frenchbread.eccentrics.EccentricsMod;
-import net.frenchbread.eccentrics.block.custom.ObsidianGlassLightBlock;
+import net.frenchbread.eccentrics.block.custom.*;
 import net.frenchbread.eccentrics.item.ModItemGroup;
+import net.frenchbread.eccentrics.world.feauture.tree.IrrendiumSaplingGenerator;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.util.Identifier;
@@ -124,6 +125,47 @@ public class ModBlocks {
     public static final Block PURPUR_END_CRYSTAL_LANTERN = registerBlock("purpur_end_crystal_lantern",
             new ObsidianGlassLightBlock(FabricBlockSettings.copy(Blocks.GLASS).strength(4.5f).nonOpaque().requiresTool()
                     .luminance(state -> state.get(ObsidianGlassLightBlock.LIT) ? 15  : 0)));
+
+    public static final Block IRRENDIUM_STEM = registerBlock("irrendium_stem",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG).hardness(100.0f).resistance(2400.0f).requiresTool()));
+
+    public static final Block STRIPPED_IRRENDIUM_STEM = registerBlock("stripped_irrendium_stem",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_LOG).hardness(100.0f).resistance(2400.0f).requiresTool()));
+
+    public static final Block IRRENDIUM_WOOD = registerBlock("irrendium_wood",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_WOOD).hardness(100.0f).resistance(2400.0f).requiresTool()));
+
+    public static final Block STRIPPED_IRRENDIUM_WOOD = registerBlock("stripped_irrendium_wood",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_WOOD).hardness(100.0f).resistance(2400.0f).requiresTool()));
+
+    public static final Block IRRENDIUM_PLANKS = registerBlock("irrendium_planks",
+            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).hardness(100.0f).resistance(2400.0f).requiresTool()));
+
+    public static final Block IRRENDIUM_LEAVES = registerBlock("irrendium_leaves",
+            new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES).strength(4).nonOpaque()));
+
+    public static final Block IRRENDIUM_SAPLING = registerBlock("irrendium_sapling",
+            new ModSaplingBlock(new IrrendiumSaplingGenerator(),
+                    FabricBlockSettings.copy(Blocks.OAK_SAPLING), () -> Blocks.END_STONE));
+
+
+    public static final Block IRRENDIUM_SLAB = registerBlock("irrendium_slab",
+            new SlabBlock(FabricBlockSettings.of(Material.WOOD).hardness(100.0f).resistance(2400.0f).requiresTool()));
+
+    public static final Block IRRENDIUM_STAIRS = registerBlock("irrendium_stairs",
+            new ModStairsBlock(ModBlocks.IRRENDIUM_PLANKS.getDefaultState(),
+                    FabricBlockSettings.of(Material.WOOD).hardness(100.0f).resistance(2400.0f).requiresTool()));
+
+    public static final Block IRRENDIUM_DOOR = registerBlock("irrendium_door",
+            new ModDoorBlock(FabricBlockSettings.of(Material.WOOD)
+                    .hardness(100.0f).resistance(2400.0f).requiresTool().nonOpaque()));
+
+    public static final Block IRRENDIUM_TRAPDOOR = registerBlock("irrendium_trapdoor",
+            new ModTrapdoorBlock(FabricBlockSettings.of(Material.WOOD)
+                    .hardness(100.0f).resistance(2400.0f).requiresTool().nonOpaque()));
+
+
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

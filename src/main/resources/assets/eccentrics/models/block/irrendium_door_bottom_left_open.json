@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left_open",
+  "textures": {
+    "bottom": "eccentrics:block/irrendium_door_bottom",
+    "top": "eccentrics:block/irrendium_door_top"
+  }
+}
