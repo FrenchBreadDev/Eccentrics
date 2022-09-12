@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "eccentrics:raw_eccentrium_wall",
+    "eccentrics:hardened_eccentrium_wall"
+  ]
+}

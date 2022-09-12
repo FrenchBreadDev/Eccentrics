@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "eccentrics:block/hardened_eccentrium_block"
+  }
+}

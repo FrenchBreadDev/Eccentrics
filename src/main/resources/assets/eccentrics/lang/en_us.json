@@ -66,6 +66,7 @@
   "block.eccentrics.irrendium_stairs": "Irrendium Stairs",
   "block.eccentrics.irrendium_door": "Irrendium Door",
   "block.eccentrics.irrendium_trapdoor": "Irrendium Trapdoor",
+  "block.eccentrics.irrendium_sign": "Irrendium Sign",
 
 
 
@@ -84,5 +85,13 @@
   "block.eccentrics.crystal_lantern": "§7Crystal Lantern§r",
   "itemGroup.eccentrics.eccentricscombat": "§dEccentrics§8:§7 Tools & Combat",
   "itemGroup.eccentrics.eccentricsmisc": "§dEccentrics§8:§7 Miscellaneous",
-  "itemGroup.eccentrics.eccentricsblocks": "§dEccentrics§8:§7 Blocks"
+  "itemGroup.eccentrics.eccentricsblocks": "§dEccentrics§8:§7 Blocks",
+
+  "block.eccentrics.irrendium_button": "Irrendium Button",
+  "block.eccentrics.decoy_block": "Decoy Block",
+  "block.eccentrics.irrendium_pressure_plate": "Irrendium Pressure Plate",
+  "block.eccentrics.irrendium_fence": "Irrendium Fence",
+  "block.eccentrics.raw_eccentrium_wall": "Raw Eccentrium Wall",
+  "block.eccentrics.hardened_eccentrium_wall": "Hardened Eccentrium Wall",
+  "block.eccentrics.irrendium_fence_gate": "Irrendium Fence Gate"
 }

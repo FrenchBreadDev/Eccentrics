@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.frenchbread.eccentrics.EccentricsMod;
 import net.frenchbread.eccentrics.block.custom.*;
+import net.frenchbread.eccentrics.entity.ModSignTypes;
 import net.frenchbread.eccentrics.item.ModItemGroup;
 import net.frenchbread.eccentrics.world.feauture.tree.IrrendiumSaplingGenerator;
 import net.minecraft.block.*;
@@ -127,22 +128,22 @@ public class ModBlocks {
                     .luminance(state -> state.get(ObsidianGlassLightBlock.LIT) ? 15  : 0)));
 
     public static final Block IRRENDIUM_STEM = registerBlock("irrendium_stem",
-            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG).hardness(100.0f).resistance(2400.0f).requiresTool()));
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG).hardness(100.0f).resistance(2400.0f)));
 
     public static final Block STRIPPED_IRRENDIUM_STEM = registerBlock("stripped_irrendium_stem",
-            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_LOG).hardness(100.0f).resistance(2400.0f).requiresTool()));
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_LOG).hardness(100.0f).resistance(2400.0f)));
 
     public static final Block IRRENDIUM_WOOD = registerBlock("irrendium_wood",
-            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_WOOD).hardness(100.0f).resistance(2400.0f).requiresTool()));
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_WOOD).hardness(100.0f).resistance(2400.0f)));
 
     public static final Block STRIPPED_IRRENDIUM_WOOD = registerBlock("stripped_irrendium_wood",
-            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_WOOD).hardness(100.0f).resistance(2400.0f).requiresTool()));
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_WOOD).hardness(100.0f).resistance(2400.0f)));
 
     public static final Block IRRENDIUM_PLANKS = registerBlock("irrendium_planks",
-            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).hardness(100.0f).resistance(2400.0f).requiresTool()));
+            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).hardness(100.0f).resistance(2400.0f)));
 
     public static final Block IRRENDIUM_LEAVES = registerBlock("irrendium_leaves",
-            new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES).strength(4).nonOpaque()));
+            new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES).nonOpaque()));
 
     public static final Block IRRENDIUM_SAPLING = registerBlock("irrendium_sapling",
             new ModSaplingBlock(new IrrendiumSaplingGenerator(),
@@ -150,19 +151,50 @@ public class ModBlocks {
 
 
     public static final Block IRRENDIUM_SLAB = registerBlock("irrendium_slab",
-            new SlabBlock(FabricBlockSettings.of(Material.WOOD).hardness(100.0f).resistance(2400.0f).requiresTool()));
+            new SlabBlock(FabricBlockSettings.of(Material.WOOD).hardness(100.0f).resistance(2400.0f)));
 
     public static final Block IRRENDIUM_STAIRS = registerBlock("irrendium_stairs",
             new ModStairsBlock(ModBlocks.IRRENDIUM_PLANKS.getDefaultState(),
-                    FabricBlockSettings.of(Material.WOOD).hardness(100.0f).resistance(2400.0f).requiresTool()));
+                    FabricBlockSettings.of(Material.WOOD).hardness(100.0f).resistance(2400.0f)));
 
     public static final Block IRRENDIUM_DOOR = registerBlock("irrendium_door",
             new ModDoorBlock(FabricBlockSettings.of(Material.WOOD)
-                    .hardness(100.0f).resistance(2400.0f).requiresTool().nonOpaque()));
+                    .hardness(100.0f).resistance(2400.0f).nonOpaque()));
 
     public static final Block IRRENDIUM_TRAPDOOR = registerBlock("irrendium_trapdoor",
             new ModTrapdoorBlock(FabricBlockSettings.of(Material.WOOD)
-                    .hardness(100.0f).resistance(2400.0f).requiresTool().nonOpaque()));
+                    .hardness(100.0f).resistance(2400.0f).nonOpaque()));
+
+    public static final Block IRRENDIUM_WALL_SIGN_BLOCK = registerBlockWithoutBlockItem("irrendium_wall_sign",
+            new WallSignBlock(FabricBlockSettings.copy(Blocks.OAK_WALL_SIGN), ModSignTypes.IRRENDIUM));
+
+    public static final Block IRRENDIUM_SIGN_BLOCK = registerBlockWithoutBlockItem("irrendium_sign",
+            new SignBlock(FabricBlockSettings.copy(Blocks.OAK_SIGN), ModSignTypes.IRRENDIUM));
+
+    public static final Block IRRENDIUM_BUTTON = registerBlock("irrendium_button",
+            new ModStoneButtonBlock(FabricBlockSettings.of(Material.WOOD)
+                    .strength(4.0f).noCollision()));
+
+    public static final Block IRRENDIUM_PRESSURE_PLATE = registerBlock("irrendium_pressure_plate",
+            new ModPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.of(Material.WOOD)
+                    .strength(4.0f)));
+
+
+    public static final Block IRRENDIUM_FENCE = registerBlock("irrendium_fence",
+            new FenceBlock(FabricBlockSettings.of(Material.WOOD).strength(4.0f)));
+
+    public static final Block IRRENDIUM_FENCE_GATE = registerBlock("irrendium_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.of(Material.WOOD).strength(4.0f)));
+
+    public static final Block RAW_ECCENTRIUM_WALL = registerBlock("raw_eccentrium_wall",
+            new WallBlock(FabricBlockSettings.of(Material.GLASS).strength(4.0f)));
+
+    public static final Block HARDENED_ECCENTRIUM_WALL = registerBlock("hardened_eccentrium_wall",
+            new WallBlock(FabricBlockSettings.of(Material.GLASS).strength(4.0f)));
+
+
+    public static final Block DECOY_BLOCK = registerBlock("decoy_block",
+            new Block(FabricBlockSettings.of(Material.STONE).noCollision()));
 
 
 
@@ -170,6 +202,9 @@ public class ModBlocks {
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
     return Registry.register(Registry.BLOCK, new Identifier(EccentricsMod.MOD_ID, name), block);
+    }
+    private static Block registerBlockWithoutBlockItem(String name, Block block) {
+        return Registry.register(Registry.BLOCK, new Identifier(EccentricsMod.MOD_ID, name), block);
     }
 
     private static void registerBlockItem(String name, Block block) {

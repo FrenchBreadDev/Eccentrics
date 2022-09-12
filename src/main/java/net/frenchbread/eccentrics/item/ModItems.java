@@ -2,11 +2,13 @@ package net.frenchbread.eccentrics.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.frenchbread.eccentrics.EccentricsMod;
+import net.frenchbread.eccentrics.block.ModBlocks;
 import net.frenchbread.eccentrics.item.custom.*;
 import net.frenchbread.eccentrics.sound.ModSounds;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.ShovelItem;
+import net.minecraft.item.SignItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -122,6 +124,11 @@ public abstract class ModItems {
 
     public static final Item BLAZING_EYE = registerItem("blazing_eye",
             new BlazingEye(new FabricItemSettings().fireproof().group(ModItemGroup.ECCENTRICSMISC)));
+
+    public static final Item IRRENDIUM_SIGN = registerItem("irrendium_sign",
+            new SignItem(new FabricItemSettings().group(ModItemGroup.ECCENTRICSBLOCKS).maxCount(16),
+                    ModBlocks.IRRENDIUM_SIGN_BLOCK, ModBlocks.IRRENDIUM_WALL_SIGN_BLOCK));
+
 
 
 

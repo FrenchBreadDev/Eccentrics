@@ -1,12 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "group": "planks",
   "ingredients": [
     {
-      "item": "eccentrics:irrendium_stem"
+      "tag": "eccentrics:irrendium_stems"
     }
   ],
   "result": {
-    "item": "eccentrics:irrendium_planks",
-    "count": 4
+    "count": 4,
+    "item": "eccentrics:irrendium_planks"
   }
 }
