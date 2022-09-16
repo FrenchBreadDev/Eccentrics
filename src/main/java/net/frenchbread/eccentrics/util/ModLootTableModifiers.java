@@ -19,6 +19,8 @@ public class ModLootTableModifiers {
             = new Identifier("minecraft", "entities/elder_guardian");
     private static final Identifier GUARDIAN_ID
             = new Identifier("minecraft", "entities/guardian");
+    private static final Identifier BLAZE_ID
+            = new Identifier("minecraft", "entities/blaze");
 
     public static void modifyLootTables() {
         LootTableEvents.MODIFY.register((resourceManager, lootManager, id, tableBuilder, source) -> {
@@ -58,7 +60,7 @@ public class ModLootTableModifiers {
             if (END_CITY_TREASURE_ID.equals(id)) {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
-                        .conditionally(RandomChanceLootCondition.builder(0.03f)) // Drops 3% of the time
+                        .conditionally(RandomChanceLootCondition.builder(0.06f)) // Drops 6% of the time
                         .with(ItemEntry.builder(ModItems.MUSIC_DISC_SYMPHONY_OF_THE_OVERWORLD))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1f, 1f)).build());
                 tableBuilder.pool(poolBuilder.build());
@@ -66,7 +68,7 @@ public class ModLootTableModifiers {
             if (ELDER_GUARDIAN_ID.equals(id)) {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
-                        .conditionally(RandomChanceLootCondition.builder(0.01f)) // Drops 1% of the time
+                        .conditionally(RandomChanceLootCondition.builder(0.05f)) // Drops 5% of the time
                         .with(ItemEntry.builder(ModItems.UNKNOWN_FRAGMENT))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1f, 1f)).build());
                 tableBuilder.pool(poolBuilder.build());
@@ -74,8 +76,15 @@ public class ModLootTableModifiers {
             if (GUARDIAN_ID.equals(id)) {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
-                        .conditionally(RandomChanceLootCondition.builder(0.03f)) // Drops 3% of the time
+                        .conditionally(RandomChanceLootCondition.builder(0.07f)) // Drops 7% of the time
                         .with(ItemEntry.builder(ModItems.ENERGIZED_PRISMARINE))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1f, 1f)).build());
+                tableBuilder.pool(poolBuilder.build());
+            }  if (BLAZE_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.08f)) // Drops 8% of the time
+                        .with(ItemEntry.builder(ModItems.BLAZE_HEART))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1f, 1f)).build());
                 tableBuilder.pool(poolBuilder.build());
             }

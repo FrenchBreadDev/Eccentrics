@@ -24,6 +24,12 @@ public class FireProofBlocks {
     public static final Block END_STONE_FLOAT_BLOCK = registerBlock("end_stone_float_block",
             new EndBoostBlock(FabricBlockSettings.of(Material.STONE).nonOpaque().hardness(150.0f).resistance(300.0f).requiresTool()));
 
+    public static final Block END_STONE_FLOAT_BLOCK_AMP_1 = registerBlock("end_stone_float_block_amp_1",
+            new EndBoostBlockAmpX1(FabricBlockSettings.of(Material.STONE).nonOpaque().hardness(150.0f).resistance(300.0f).requiresTool()));
+
+    public static final Block END_STONE_FLOAT_BLOCK_AMP_2 = registerBlock("end_stone_float_block_amp_2",
+            new EndBoostBlockAmpX2(FabricBlockSettings.of(Material.STONE).nonOpaque().hardness(150.0f).resistance(300.0f).requiresTool()));
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

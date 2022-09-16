@@ -3,7 +3,9 @@ package net.frenchbread.eccentrics;
 import net.fabricmc.api.ModInitializer;
 import net.frenchbread.eccentrics.block.ModBlocks;
 import net.frenchbread.eccentrics.block.custom.FireProofBlocks;
+import net.frenchbread.eccentrics.enchantment.ModEnchantments;
 import net.frenchbread.eccentrics.item.ModItems;
+import net.frenchbread.eccentrics.painting.ModPaintings;
 import net.frenchbread.eccentrics.util.ModLootTableModifiers;
 import net.frenchbread.eccentrics.util.ModRegistries;
 import net.frenchbread.eccentrics.world.feauture.ModConfiguredFeatures;
@@ -34,6 +36,10 @@ public class EccentricsMod implements ModInitializer {
 		ModLootTableModifiers.modifyLootTables();
 
 		ModWorldGen.generateModWorldGen();
+
+		ModPaintings.registerPaintings();
+
+		ModEnchantments.registerModEnchantments();
 
 	}
 }

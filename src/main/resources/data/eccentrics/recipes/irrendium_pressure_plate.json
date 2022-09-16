@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_pressure_plate",
+  "key": {
+    "#": {
+      "item": "eccentrics:irrendium_planks"
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "item": "eccentrics:irrendium_pressure_plate"
+  }
+}

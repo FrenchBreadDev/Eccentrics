@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#E#",
+    "ECE",
+    "#E#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stone"
+    },
+    "E": {
+      "item": "minecraft:ender_pearl"
+    },
+    "C": {
+      "item": "eccentrics:dark_eccentrium_crystal"
+    }
+  },
+  "result": {
+    "item": "eccentrics:decoy_stone",
+    "count": 8
+  },
+  "group": "Stuff"
+}

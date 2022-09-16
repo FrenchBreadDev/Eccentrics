@@ -14,14 +14,14 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class ModWeaknessSwordItem extends SwordItem {
-    public ModWeaknessSwordItem(ToolMaterial toolMaterial, int attackDamage, float attackSpeed, Settings settings) {
+public class ModSlownessSwordItem extends SwordItem {
+    public ModSlownessSwordItem(ToolMaterial toolMaterial, int attackDamage, float attackSpeed, Settings settings) {
         super(toolMaterial, attackDamage, attackSpeed, settings);
     }
 
     @Override
     public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker) {
-        target.addStatusEffect(new StatusEffectInstance(StatusEffects.WEAKNESS, 200, 1), attacker);
+        target.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 200, 1), attacker);
         return super.postHit(stack, target, attacker);
     }
 
@@ -29,7 +29,7 @@ public class ModWeaknessSwordItem extends SwordItem {
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
         if(Screen.hasShiftDown()) {
             tooltip.add(Text.literal("§9This Weapon Inflicts The Effect:"));
-            tooltip.add(Text.literal("§cWeakness II §7(0:10)"));
+            tooltip.add(Text.literal("§cSlowness II §7(0:10)"));
         } else {
         tooltip.add(Text.literal("§7Press §eSHIFT§7 For More Info"));
 

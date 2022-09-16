@@ -9,8 +9,8 @@ import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class EndBoostBlock extends Block {
-    public EndBoostBlock(Settings settings) {
+public class EndBoostBlockAmpX2 extends Block {
+    public EndBoostBlockAmpX2(Settings settings) {
         super(settings);
     }
 
@@ -18,7 +18,7 @@ public class EndBoostBlock extends Block {
     @Override
     public void onSteppedOn(World world, BlockPos pos, BlockState state, Entity entity) {
         if(entity instanceof LivingEntity livingEntity) {
-            livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.LEVITATION, 200,5));
+            livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.LEVITATION, 200,15));
             livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOW_FALLING,800 ,1));
         }
 

@@ -23,6 +23,8 @@
   "block.eccentrics.end_crystal_lantern": "§dEnd Crystal Lantern",
   "block.eccentrics.purpur_end_crystal_lantern": "§dPurpur End Crystal Lantern",
   "block.eccentrics.end_stone_float_block": "§5End Stone Levitation Block",
+  "block.eccentrics.end_stone_float_block_amp_1": "§5End Stone Levitation Block§7 (§6Amplifier:§9 1§7)",
+  "block.eccentrics.end_stone_float_block_amp_2": "§5End Stone Levitation Block§7 (§6Amplifier:§9 2§7)",
   "block.eccentrics.styled_stained_glass_fire_variant": "§7Styled Stained Glass (§cFire§7)§r",
   "block.eccentrics.irrendium_leaves": "Irrendium Leaves",
   "block.eccentrics.irrendium_wood": "Irrendium Wood",
@@ -50,6 +52,7 @@
   "item.eccentrics.energized_prismarine": "§bEnergized Prismarine",
   "item.eccentrics.heart_of_the_monument": "§9H§3e§ba§9r§3t §bO§9f §3T§bh§9e §3M§bo§9n§3u§bm§9e§3n§bt",
   "item.eccentrics.unknown_fragment": "§8Unknown Fragment",
+  "item.eccentrics.blaze_heart": "§6Blaze Heart",
   "block.eccentrics.raw_eccentrium_block": "Raw Eccentrium Block",
   "block.eccentrics.hardened_eccentrium_crystal_block": "Hardened Eccentrium Crystal Block",
   "block.eccentrics.dark_eccentrium_lantern": "Dark Eccentrium Lantern",
@@ -67,6 +70,8 @@
   "block.eccentrics.irrendium_door": "Irrendium Door",
   "block.eccentrics.irrendium_trapdoor": "Irrendium Trapdoor",
   "block.eccentrics.irrendium_sign": "Irrendium Sign",
+
+  "enchantment.eccentrics.poison_aspect": "Poison Aspect",
 
 
 
@@ -88,7 +93,8 @@
   "itemGroup.eccentrics.eccentricsblocks": "§dEccentrics§8:§7 Blocks",
 
   "block.eccentrics.irrendium_button": "Irrendium Button",
-  "block.eccentrics.decoy_block": "Decoy Block",
+  "block.eccentrics.end_grass_block": "End Grass Block",
+  "block.eccentrics.decoy_stone": "§7Decoy Stone",
   "block.eccentrics.irrendium_pressure_plate": "Irrendium Pressure Plate",
   "block.eccentrics.irrendium_fence": "Irrendium Fence",
   "block.eccentrics.raw_eccentrium_wall": "Raw Eccentrium Wall",

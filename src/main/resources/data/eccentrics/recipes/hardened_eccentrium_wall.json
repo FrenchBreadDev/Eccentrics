@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "item": "eccentrics:hardened_eccentrium_block"
+      "item": "eccentrics:hardened_eccentrium_crystal_block"
     }
   },
   "pattern": [

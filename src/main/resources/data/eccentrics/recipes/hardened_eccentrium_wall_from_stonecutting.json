@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "eccentrics:hardened_eccentrium_crystal_block"
+  },
+  "result": "eccentrics:hardened_eccentrium_wall",
+  "count": 3
+}

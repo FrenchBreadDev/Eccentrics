@@ -34,6 +34,7 @@
     "eccentrics:healing_core",
     "eccentrics:end_crystal_lantern",
     "eccentrics:purpur_end_crystal_lantern",
-    "eccentrics:end_stone_float_block"
+    "eccentrics:end_stone_float_block",
+    "eccentrics:end_grass_block"
   ]
 }

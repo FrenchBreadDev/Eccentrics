@@ -7,6 +7,10 @@
     "eccentrics:irrendium_door",
     "eccentrics:irrendium_trapdoor",
     "eccentrics:irrendium_slab",
-    "eccentrics:irrendium_sign"
+    "eccentrics:irrendium_sign",
+    "eccentrics:irrendium_pressure_plate",
+    "eccentrics:irrendium_fence",
+    "eccentrics:irrendium_fence_gate",
+    "eccentrics:irrendium_button"
   ]
 }

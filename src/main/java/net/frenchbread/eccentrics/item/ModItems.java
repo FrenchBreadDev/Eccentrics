@@ -88,7 +88,7 @@ public abstract class ModItems {
                     new FabricItemSettings().fireproof().group(ModItemGroup.ECCENTRICSCOMBAT)));
 
     public static final Item IMPURE_BEDROCK_BROADSWORD = registerItem("impure_bedrock_broadsword",
-            new ModWeaknessSwordItem(ModToolMaterials2.IMPURE_BEDROCK, 8, -3f,
+            new ModSlownessSwordItem(ModToolMaterials2.IMPURE_BEDROCK, 8, -3f,
                     new FabricItemSettings().fireproof().group(ModItemGroup.ECCENTRICSCOMBAT)));
 
     public static final Item IMPURE_BEDROCK_AXE = registerItem("impure_bedrock_axe",
@@ -128,6 +128,10 @@ public abstract class ModItems {
     public static final Item IRRENDIUM_SIGN = registerItem("irrendium_sign",
             new SignItem(new FabricItemSettings().group(ModItemGroup.ECCENTRICSBLOCKS).maxCount(16),
                     ModBlocks.IRRENDIUM_SIGN_BLOCK, ModBlocks.IRRENDIUM_WALL_SIGN_BLOCK));
+
+    public static final Item BLAZE_HEART = registerItem("blaze_heart",
+            new Item(new FabricItemSettings().fireproof().group(ModItemGroup.ECCENTRICSMISC)));
+
 
 
 

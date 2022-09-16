@@ -180,6 +180,11 @@ public class ModBlocks {
                     .strength(4.0f)));
 
 
+    public static final Block END_GRASS_BLOCK = registerBlock("end_grass_block",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4f)));
+
+
+
     public static final Block IRRENDIUM_FENCE = registerBlock("irrendium_fence",
             new FenceBlock(FabricBlockSettings.of(Material.WOOD).strength(4.0f)));
 
@@ -193,8 +198,8 @@ public class ModBlocks {
             new WallBlock(FabricBlockSettings.of(Material.GLASS).strength(4.0f)));
 
 
-    public static final Block DECOY_BLOCK = registerBlock("decoy_block",
-            new Block(FabricBlockSettings.of(Material.STONE).noCollision()));
+    public static final Block DECOY_STONE = registerBlock("decoy_stone",
+            new Block(FabricBlockSettings.of(Material.STONE).nonOpaque().noCollision()));
 
 
 

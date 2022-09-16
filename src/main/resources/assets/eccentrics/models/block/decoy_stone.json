@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "eccentrics:block/decoy_block"
+    "all": "eccentrics:block/decoy_stone"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "eccentrics:block/hardened_eccentrium_crystal_block"
+    "all": "eccentrics:block/hardened_eccentrium_block"
   }
 }

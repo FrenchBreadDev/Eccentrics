@@ -38,10 +38,13 @@ public class EccentricsModClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIME_GREEN_CRYSTAL_LANTERN, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.STYLED_STAINED_OXIDIZING_COPPER_VARIANT, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(FireProofBlocks.END_STONE_FLOAT_BLOCK, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(FireProofBlocks.END_STONE_FLOAT_BLOCK_AMP_1, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(FireProofBlocks.END_STONE_FLOAT_BLOCK_AMP_2, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.END_CRYSTAL_LANTERN, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PURPUR_END_CRYSTAL_LANTERN, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RAW_ECCENTRIUM_WALL, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.HARDENED_ECCENTRIUM_WALL, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.DECOY_STONE, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.IRRENDIUM_LEAVES, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.IRRENDIUM_SAPLING, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.IRRENDIUM_DOOR, RenderLayer.getCutout());

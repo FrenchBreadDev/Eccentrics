@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "eccentrics:raw_eccentrium_block"
+  },
+  "result": "eccentrics:raw_eccentrium_wall",
+  "count": 3
+}
