@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "eccentrics:raw_alexandrite"
+  },
+  "result": "eccentrics:alexandrite_gem",
+  "experience": 0.7,
+  "cookingtime": 400,
+  "group": "Stuff"
+}

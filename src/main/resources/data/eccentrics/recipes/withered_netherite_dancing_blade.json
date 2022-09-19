@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  e",
+    "eEe",
+    "e  "
+  ],
+  "key": {
+    "e": {
+      "item": "eccentrics:withered_netherite_ingot"
+    },
+    "E": {
+      "item": "eccentrics:steel_rod"
+    }
+  },
+  "result": {
+    "item": "eccentrics:withered_netherite_dancing_blade",
+    "count": 1
+  }
+}

@@ -21,6 +21,12 @@ public abstract class ModItems {
     public static final Item RAW_ECCENTRIUM = registerItem("raw_eccentrium",
             new Item(new FabricItemSettings().group(ModItemGroup.ECCENTRICSMISC)));
 
+    public static final Item RAW_ALEXANDRITE = registerItem("raw_alexandrite",
+            new Item(new FabricItemSettings().group(ModItemGroup.ECCENTRICSMISC)));
+
+    public static final Item ALEXANDRITE_GEM = registerItem("alexandrite_gem",
+            new Item(new FabricItemSettings().group(ModItemGroup.ECCENTRICSMISC)));
+
     public static final Item HARDENED_ECCENTRIUM_CRYSTAL = registerItem("hardened_eccentrium_crystal",
             new Item(new FabricItemSettings().group(ModItemGroup.ECCENTRICSMISC)));
 
@@ -131,6 +137,71 @@ public abstract class ModItems {
 
     public static final Item BLAZE_HEART = registerItem("blaze_heart",
             new Item(new FabricItemSettings().fireproof().group(ModItemGroup.ECCENTRICSMISC)));
+
+    public static final Item WITHERED_NETHERITE_INGOT = registerItem("withered_netherite_ingot",
+            new Item(new FabricItemSettings().fireproof().group(ModItemGroup.ECCENTRICSMISC)));
+
+    public static final Item WITHERED_SCRAP = registerItem("withered_scrap",
+            new Item(new FabricItemSettings().fireproof().group(ModItemGroup.ECCENTRICSMISC)));
+
+    public static final Item ALEXANDRITE_HELMET = registerItem("alexandrite_helmet",
+            new ModArmorItem5(ModArmorMaterials3.ALEXANDRITE, EquipmentSlot.HEAD,
+                    new FabricItemSettings().group(ModItemGroup.ECCENTRICSCOMBAT)));
+
+    public static final Item ALEXANDRITE_CHESTPLATE = registerItem("alexandrite_chestplate",
+            new ModArmorItem5(ModArmorMaterials3.ALEXANDRITE, EquipmentSlot.CHEST,
+                    new FabricItemSettings().group(ModItemGroup.ECCENTRICSCOMBAT)));
+
+    public static final Item ALEXANDRITE_LEGGINGS = registerItem("alexandrite_leggings",
+            new ModArmorItem6(ModArmorMaterials3.ALEXANDRITE, EquipmentSlot.LEGS,
+                    new FabricItemSettings().group(ModItemGroup.ECCENTRICSCOMBAT)));
+
+    public static final Item ALEXANDRITE_BOOTS = registerItem("alexandrite_boots",
+            new ModArmorItem6(ModArmorMaterials3.ALEXANDRITE, EquipmentSlot.FEET,
+                    new FabricItemSettings().group(ModItemGroup.ECCENTRICSCOMBAT)));
+
+    public static final Item ALEXANDRITE_SWORD = registerItem("alexandrite_sword",
+            new ModDarknessSwordItem(ModToolMaterials3.ALEXANDRITE, 7, -2.6f,
+                    new FabricItemSettings().group(ModItemGroup.ECCENTRICSCOMBAT)));
+
+    public static final Item ALEXANDRITE_AXE = registerItem("alexandrite_axe",
+            new ModAxeItem(ModToolMaterials3.ALEXANDRITE, 7, 1f,
+                    new FabricItemSettings().group(ModItemGroup.ECCENTRICSCOMBAT)));
+
+    public static final Item ALEXANDRITE_HOE = registerItem("alexandrite_hoe",
+            new ModHoeItem(ModToolMaterials3.ALEXANDRITE, 0, 1f,
+                    new FabricItemSettings().group(ModItemGroup.ECCENTRICSCOMBAT)));
+
+    public static final Item ALEXANDRITE_SHOVEL = registerItem("alexandrite_shovel",
+            new ShovelItem(ModToolMaterials3.ALEXANDRITE, 0, 1f,
+                    new FabricItemSettings().group(ModItemGroup.ECCENTRICSCOMBAT)));
+
+    public static final Item ALEXANDRITE_PICKAXE = registerItem("alexandrite_pickaxe",
+            new ModPickaxeItem(ModToolMaterials3.ALEXANDRITE, 0, 1f,
+                    new FabricItemSettings().group(ModItemGroup.ECCENTRICSCOMBAT)));
+
+    public static final Item WITHERED_NETHERITE_HELMET = registerItem("withered_netherite_helmet",
+            new ModArmorItem7(ModArmorMaterials4.WITHERED_NETHERITE, EquipmentSlot.HEAD,
+                    new FabricItemSettings().group(ModItemGroup.ECCENTRICSCOMBAT)));
+
+    public static final Item WITHERED_NETHERITE_CHESTPLATE = registerItem("withered_netherite_chestplate",
+            new ModArmorItem7(ModArmorMaterials4.WITHERED_NETHERITE, EquipmentSlot.CHEST,
+                    new FabricItemSettings().group(ModItemGroup.ECCENTRICSCOMBAT)));
+
+    public static final Item WITHERED_NETHERITE_LEGGINGS = registerItem("withered_netherite_leggings",
+            new ModArmorItem7(ModArmorMaterials4.WITHERED_NETHERITE, EquipmentSlot.LEGS,
+                    new FabricItemSettings().group(ModItemGroup.ECCENTRICSCOMBAT)));
+
+    public static final Item WITHERED_NETHERITE_BOOTS = registerItem("withered_netherite_boots",
+            new ModArmorItem7(ModArmorMaterials4.WITHERED_NETHERITE, EquipmentSlot.FEET,
+                    new FabricItemSettings().group(ModItemGroup.ECCENTRICSCOMBAT)));
+
+    public static final Item WITHERED_NETHERITE_DANCING_BLADE = registerItem("withered_netherite_dancing_blade",
+            new ModWitherSwordItem(ModToolMaterials4.WITHERED_NETHERITE, 7, -1.6f,
+                    new FabricItemSettings().group(ModItemGroup.ECCENTRICSCOMBAT)));
+
+    public static final Item STEEL_ROD = registerItem("steel_rod",
+            new Item(new FabricItemSettings().group(ModItemGroup.ECCENTRICSMISC)));
 
 
 

@@ -22,6 +22,9 @@ public class ModLootTableModifiers {
     private static final Identifier BLAZE_ID
             = new Identifier("minecraft", "entities/blaze");
 
+    private static final Identifier WITHER_SKELETON_ID
+            = new Identifier("minecraft", "entities/wither_skeleton");
+
     public static void modifyLootTables() {
         LootTableEvents.MODIFY.register((resourceManager, lootManager, id, tableBuilder, source) -> {
             if (END_CITY_TREASURE_ID.equals(id)) {
@@ -80,11 +83,20 @@ public class ModLootTableModifiers {
                         .with(ItemEntry.builder(ModItems.ENERGIZED_PRISMARINE))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1f, 1f)).build());
                 tableBuilder.pool(poolBuilder.build());
-            }  if (BLAZE_ID.equals(id)) {
+            }
+            if (BLAZE_ID.equals(id)) {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.08f)) // Drops 8% of the time
                         .with(ItemEntry.builder(ModItems.BLAZE_HEART))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1f, 1f)).build());
+                tableBuilder.pool(poolBuilder.build());
+            }
+            if (WITHER_SKELETON_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.2f)) // Drops 20% of the time
+                        .with(ItemEntry.builder(ModItems.WITHERED_SCRAP))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1f, 1f)).build());
                 tableBuilder.pool(poolBuilder.build());
             }

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "eccentrics:raw_alexandrite_block"
+    }
+  ],
+  "result": {
+    "item": "eccentrics:raw_alexandrite",
+    "count": 9
+  },
+  "group": "stuff"
+}

@@ -40,6 +40,8 @@
   "block.eccentrics.styled_stained_glass_bedrock_variant": "§7Styled Stained Glass (§8B§7e§fd§8r§7o§fc§8k)§r",
   "block.eccentrics.impure_bedrock": "§7Impure Bedrock",
   "item.eccentrics.impure_bedrock_broadsword": "§7Impure Bedrock Broadsword",
+  "item.eccentrics.raw_alexandrite": "Raw Alexandrite",
+  "item.eccentrics.alexandrite_gem": "Alexandrite Gem",
   "item.eccentrics.impure_bedrock_helmet": "§7Impure Bedrock Helmet",
   "item.eccentrics.impure_bedrock_chestplate": "§7Impure Bedrock Chestplate",
   "item.eccentrics.impure_bedrock_leggings": "§7Impure Bedrock Leggings",
@@ -54,6 +56,8 @@
   "item.eccentrics.unknown_fragment": "§8Unknown Fragment",
   "item.eccentrics.blaze_heart": "§6Blaze Heart",
   "block.eccentrics.raw_eccentrium_block": "Raw Eccentrium Block",
+  "block.eccentrics.raw_alexandrite_block": "Raw Alexandrite Block",
+  "block.eccentrics.alexandrite_gem_block": "Alexandrite Gem Block",
   "block.eccentrics.hardened_eccentrium_crystal_block": "Hardened Eccentrium Crystal Block",
   "block.eccentrics.dark_eccentrium_lantern": "Dark Eccentrium Lantern",
   "block.eccentrics.purple_crystal_lantern": "§7Crystal Lantern (§5Purple§7)§r",
@@ -70,15 +74,33 @@
   "block.eccentrics.irrendium_door": "Irrendium Door",
   "block.eccentrics.irrendium_trapdoor": "Irrendium Trapdoor",
   "block.eccentrics.irrendium_sign": "Irrendium Sign",
+  "block.eccentrics.alexandrite_ore": "Alexandrite Ore",
 
   "enchantment.eccentrics.poison_aspect": "Poison Aspect",
-
+  "item.eccentrics.alexandrite_sword": "Alexandrite Sword",
+  "item.eccentrics.alexandrite_axe": "Alexandrite Axe",
+  "item.eccentrics.alexandrite_hoe": "Alexandrite Hoe",
+  "item.eccentrics.alexandrite_shovel": "Alexandrite Shovel",
+  "item.eccentrics.alexandrite_pickaxe": "Alexandrite Pickaxe",
+  "item.eccentrics.withered_scrap": "Withered Scrap",
+  "item.eccentrics.alexandrite_helmet": "Alexandrite Helmet",
+  "item.eccentrics.alexandrite_chestplate": "Alexandrite Chestplate",
+  "item.eccentrics.alexandrite_leggings": "Alexandrite Leggings",
+  "item.eccentrics.alexandrite_boots": "Alexandrite Boots",
+  "item.eccentrics.withered_netherite_helmet": "Withered Netherite Helmet",
+  "item.eccentrics.withered_netherite_chestplate": "Withered Netherite Chestplate",
+  "item.eccentrics.withered_netherite_leggings": "Withered Netherite Leggings",
+  "item.eccentrics.withered_netherite_boots": "Withered Netherite Boots",
+  "item.eccentrics.withered_netherite_ingot": "Withered Netherite Ingot",
+  "item.eccentrics.steel_rod": "Steel Rod",
+  "item.eccentrics.withered_netherite_dancing_blade": "Withered Netherite Dancers Blade",
 
 
 
 
 
   "block.eccentrics.dark_aqua_crystal_lantern": "§7Crystal Lantern (§3Dark Aqua§7)§r",
+  "block.eccentrics.withered_netherite_block": "Withered Netherite Block",
   "block.eccentrics.red_crystal_lantern": "§7Crystal Lantern (§cRed§7)§r",
   "block.eccentrics.dark_blue_crystal_lantern": "§7Crystal Lantern (§1Dark Blue§7)§r",
   "block.eccentrics.pink_crystal_lantern": "§7Crystal Lantern (§dPink§7)§r",

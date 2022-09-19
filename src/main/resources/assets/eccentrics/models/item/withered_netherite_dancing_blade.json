@@ -1,0 +1,6 @@
+{
+  "parent": "eccentrics:item/big_sword_generated",
+  "textures": {
+    "layer0": "eccentrics:item/withered_netherite_dancing_blade"
+  }
+}

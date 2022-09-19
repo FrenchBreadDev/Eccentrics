@@ -31,10 +31,10 @@ public class EccentricsMod implements ModInitializer {
 
 
 		ModRegistries.registerModStuffs();
-		ModOreGeneration.generateOres();
+
 
 		ModLootTableModifiers.modifyLootTables();
-
+		ModOreGeneration.generateOres();
 		ModWorldGen.generateModWorldGen();
 
 		ModPaintings.registerPaintings();

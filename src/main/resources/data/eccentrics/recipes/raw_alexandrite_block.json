@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "eccentrics:raw_alexandrite"
+    }
+  },
+  "result": {
+    "item": "eccentrics:raw_alexandrite_block",
+    "count": 1
+  },
+  "group": "stuff"
+}

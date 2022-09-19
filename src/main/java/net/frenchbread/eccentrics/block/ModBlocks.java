@@ -19,9 +19,19 @@ public class ModBlocks {
             new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool(),
                     UniformIntProvider.create(3, 7)));
 
+    public static final Block ALEXANDRITE_ORE = registerBlock("alexandrite_ore",
+            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool(),
+                    UniformIntProvider.create(3, 7)));
+
 
     public static final Block RAW_ECCENTRIUM_BLOCK = registerBlock("raw_eccentrium_block",
             new GlassBlock(FabricBlockSettings.copy(Blocks.GLASS).strength(6.0f).nonOpaque()));
+
+    public static final Block RAW_ALEXANDRITE_BLOCK = registerBlock("raw_alexandrite_block",
+            new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(4.0f)));
+
+    public static final Block ALEXANDRITE_GEM_BLOCK = registerBlock("alexandrite_gem_block",
+            new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(4.0f)));
 
     public static final Block HARDENED_ECCENTRIUM_CRYSTAL_BLOCK = registerBlock("hardened_eccentrium_crystal_block",
             new GlassBlock(FabricBlockSettings.copy(Blocks.GLASS).strength(6.0f).nonOpaque()));

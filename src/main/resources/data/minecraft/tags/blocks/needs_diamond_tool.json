@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "eccentrics:alexandrite_ore",
+    "eccentrics:withered_netherite_block",
+    "eccentrics:raw_alexandrite_block",
+    "eccentrics:alexandrite_gem_block"
+  ]
+}

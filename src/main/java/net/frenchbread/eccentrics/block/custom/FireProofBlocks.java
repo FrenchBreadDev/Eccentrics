@@ -21,6 +21,9 @@ public class FireProofBlocks {
     public static final Block FRIGID_MAGMA = registerBlock("frigid_magma",
             new FrigidMagma(FabricBlockSettings.of(Material.STONE).hardness(200.0f).resistance(600.0f).requiresTool()));
 
+    public static final Block WITHERED_NETHERITE_BLOCK = registerBlock("withered_netherite_block",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()));
+
     public static final Block END_STONE_FLOAT_BLOCK = registerBlock("end_stone_float_block",
             new EndBoostBlock(FabricBlockSettings.of(Material.STONE).nonOpaque().hardness(150.0f).resistance(300.0f).requiresTool()));
 

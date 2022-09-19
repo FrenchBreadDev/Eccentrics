@@ -15,6 +15,10 @@ import net.minecraft.world.gen.trunk.StraightTrunkPlacer;
 import java.util.List;
 
 public class ModConfiguredFeatures {
+    public static final List<OreFeatureConfig.Target> OVERWORLD_ALEXANDRITE_ORES = List.of(
+            OreFeatureConfig.createTarget(OreConfiguredFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.ALEXANDRITE_ORE.getDefaultState()));
+
+
     public static final RegistryEntry<ConfiguredFeature<TreeFeatureConfig, ?>> IRRENDIUM_TREE =
             ConfiguredFeatures.register("irrendium_tree", Feature.TREE, new TreeFeatureConfig.Builder(
                     BlockStateProvider.of(ModBlocks.IRRENDIUM_STEM),
@@ -40,6 +44,9 @@ public class ModConfiguredFeatures {
 
     public static final List<OreFeatureConfig.Target> END_ECCENTRIUM_ORES = List.of(
             OreFeatureConfig.createTarget(new BlockMatchRuleTest(Blocks.END_STONE), ModBlocks.ECCENTRIUM_ORE.getDefaultState()));
+
+    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> ALEXANDRITE_ORE =
+            ConfiguredFeatures.register("alexandrite_ore", Feature.ORE, new OreFeatureConfig(OVERWORLD_ALEXANDRITE_ORES, 9));
 
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> END_ECCENTRIUM_ORE =
             ConfiguredFeatures.register("eccentrium_ore",Feature.ORE, new OreFeatureConfig(END_ECCENTRIUM_ORES, 3));
