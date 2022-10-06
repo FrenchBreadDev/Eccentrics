@@ -8,8 +8,8 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModEnchantments {
-    public static Enchantment POISON_ASPECT = register("poison_aspect",
-            new PoisonAspectEnchantment(Enchantment.Rarity.UNCOMMON,
+    public static Enchantment LEVITATION_INFLICTION = register("levitation_infliction",
+            new LevitationInflictionEnchantment(Enchantment.Rarity.UNCOMMON,
                     EnchantmentTarget.WEAPON, EquipmentSlot.MAINHAND));
 
 

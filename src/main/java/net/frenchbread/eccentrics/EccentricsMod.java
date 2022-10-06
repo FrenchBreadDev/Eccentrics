@@ -9,6 +9,7 @@ import net.frenchbread.eccentrics.painting.ModPaintings;
 import net.frenchbread.eccentrics.util.ModLootTableModifiers;
 import net.frenchbread.eccentrics.util.ModRegistries;
 import net.frenchbread.eccentrics.world.feauture.ModConfiguredFeatures;
+import net.frenchbread.eccentrics.world.gen.ModFlowerGeneration;
 import net.frenchbread.eccentrics.world.gen.ModOreGeneration;
 import net.frenchbread.eccentrics.world.gen.ModWorldGen;
 import org.slf4j.Logger;
@@ -36,6 +37,7 @@ public class EccentricsMod implements ModInitializer {
 		ModLootTableModifiers.modifyLootTables();
 		ModOreGeneration.generateOres();
 		ModWorldGen.generateModWorldGen();
+		ModFlowerGeneration.generateFlowers();
 
 		ModPaintings.registerPaintings();
 

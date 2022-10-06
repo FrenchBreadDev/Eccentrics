@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  e",
+    "ee ",
+    "Ee "
+  ],
+  "key": {
+    "e": {
+      "item": "eccentrics:withered_netherite_ingot"
+    },
+    "E": {
+      "item": "eccentrics:steel_rod"
+    }
+  },
+  "result": {
+    "item": "eccentrics:withered_netherite_claymore",
+    "count": 1
+  },
+  "group": "Stuff"
+}

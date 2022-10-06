@@ -8,6 +8,7 @@ import net.frenchbread.eccentrics.entity.ModSignTypes;
 import net.frenchbread.eccentrics.item.ModItemGroup;
 import net.frenchbread.eccentrics.world.feauture.tree.IrrendiumSaplingGenerator;
 import net.minecraft.block.*;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
@@ -189,10 +190,10 @@ public class ModBlocks {
             new ModPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.of(Material.WOOD)
                     .strength(4.0f)));
 
-
+/*
     public static final Block END_GRASS_BLOCK = registerBlock("end_grass_block",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4f)));
-
+*/
 
 
     public static final Block IRRENDIUM_FENCE = registerBlock("irrendium_fence",
@@ -211,9 +212,17 @@ public class ModBlocks {
     public static final Block DECOY_STONE = registerBlock("decoy_stone",
             new Block(FabricBlockSettings.of(Material.STONE).nonOpaque().noCollision()));
 
+    public static final Block VOID_LILY = registerBlock("void_lily",
+            new FlowerBlock(StatusEffects.DARKNESS, 8,
+                    FabricBlockSettings.copy(Blocks.DANDELION)));
 
+   /* public static final Block POTTED_VOID_LILY = registerBlockWithoutItem("potted_void_lily",
+            new FlowerPotBlock(ModBlocks.VOID_LILY, FabricBlockSettings.copy(Blocks.POTTED_DANDELION)));
 
-
+    private static Block registerBlockWithoutItem(String name, Block block) {
+        return Registry.register(Registry.BLOCK, new Identifier(EccentricsMod.MOD_ID, name), block);
+    }
+*/
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
     return Registry.register(Registry.BLOCK, new Identifier(EccentricsMod.MOD_ID, name), block);

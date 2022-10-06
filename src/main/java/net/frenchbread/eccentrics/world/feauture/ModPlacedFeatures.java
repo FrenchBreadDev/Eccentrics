@@ -10,7 +10,7 @@ import net.minecraft.world.gen.placementmodifier.*;
 import java.util.List;
 
 public class ModPlacedFeatures {
-        public static final RegistryEntry<PlacedFeature> IRRENDIUM_PLACED = PlacedFeatures.register("irrendium_placed",
+    public static final RegistryEntry<PlacedFeature> IRRENDIUM_PLACED = PlacedFeatures.register("irrendium_placed",
             ModConfiguredFeatures.IRRENDIUM_SPAWN, VegetationPlacedFeatures.modifiers(
                     PlacedFeatures.createCountExtraModifier(1, 0.1f, 1)));
 
@@ -21,6 +21,11 @@ public class ModPlacedFeatures {
     public static final RegistryEntry<PlacedFeature> ALEXANDRITE_ORE_PLACED = PlacedFeatures.register("alexandrite_ore_placed",
             ModConfiguredFeatures.ALEXANDRITE_ORE, modifiersWithCount(9,
                     HeightRangePlacementModifier.trapezoid(YOffset.fixed(-80), YOffset.fixed(80))));
+
+    public static final RegistryEntry<PlacedFeature> VOID_LILY = PlacedFeatures.register("void_lily",
+            ModConfiguredFeatures.VOID_LILY, RarityFilterPlacementModifier.of(4), SquarePlacementModifier.of(),
+            PlacedFeatures.MOTION_BLOCKING_HEIGHTMAP, BiomePlacementModifier.of());
+
 
 
 

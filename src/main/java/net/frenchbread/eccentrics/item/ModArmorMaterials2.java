@@ -53,6 +53,7 @@ public enum ModArmorMaterials2 implements ArmorMaterial {
         return this.equipSound;
     }
 
+
         public Ingredient getRepairIngredient() {
         return (Ingredient)this.repairIngredientSupplier.get();
     }

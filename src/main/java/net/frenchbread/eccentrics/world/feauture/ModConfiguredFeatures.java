@@ -36,6 +36,10 @@ public class ModConfiguredFeatures {
                     new RandomFeatureConfig(List.of(new RandomFeatureEntry(IRRENDIUM_CHECKED, 0.5f)),
                             IRRENDIUM_CHECKED));
 
+    public static final RegistryEntry<ConfiguredFeature<RandomPatchFeatureConfig, ?>> VOID_LILY =
+            ConfiguredFeatures.register("flower_void_lily", Feature.FLOWER,
+                    ConfiguredFeatures.createRandomPatchFeatureConfig(64, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.VOID_LILY)))));
 
 
 

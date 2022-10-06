@@ -6,10 +6,10 @@
   "name": "Eccentrics",
   "description": "Adds many new blocks, items, armor, tools, and some new discs. Don't ask for forge or I'll  take your joints :)",
   "authors": [
-    "FrenchBread"
+    "FrenchedBread"
   ],
   "contact": {
-    "homepage": "https://github.com/FrenchBreadDev/Eccentricss",
+    "homepage": "https://github.com/FrenchBreadDev/Eccentrics",
     "issues": "https://github.com/FrenchBreadDev/Eccentrics/issues"
   },
 
@@ -30,7 +30,7 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.14.6",
+    "fabricloader": ">=0.14.9",
     "fabric": "*",
     "minecraft": "~1.19",
     "java": ">=17"

@@ -6,9 +6,7 @@ import net.frenchbread.eccentrics.block.ModBlocks;
 import net.frenchbread.eccentrics.item.custom.*;
 import net.frenchbread.eccentrics.sound.ModSounds;
 import net.minecraft.entity.EquipmentSlot;
-import net.minecraft.item.Item;
-import net.minecraft.item.ShovelItem;
-import net.minecraft.item.SignItem;
+import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -198,6 +196,14 @@ public abstract class ModItems {
 
     public static final Item WITHERED_NETHERITE_DANCING_BLADE = registerItem("withered_netherite_dancing_blade",
             new ModWitherSwordItem(ModToolMaterials4.WITHERED_NETHERITE, 7, -1.6f,
+                    new FabricItemSettings().group(ModItemGroup.ECCENTRICSCOMBAT)));
+
+    public static final Item WITHERED_NETHERITE_CLAYMORE = registerItem("withered_netherite_claymore",
+            new SwordItem(ModToolMaterials4.WITHERED_NETHERITE,8, -3.4f,
+                    new FabricItemSettings().group(ModItemGroup.ECCENTRICSCOMBAT)));
+
+    public static final Item WITHERED_NETHERITE_BLADE = registerItem("withered_netherite_blade",
+            new SwordItem(ModToolMaterials4.WITHERED_NETHERITE,6, -2.6f,
                     new FabricItemSettings().group(ModItemGroup.ECCENTRICSCOMBAT)));
 
     public static final Item STEEL_ROD = registerItem("steel_rod",

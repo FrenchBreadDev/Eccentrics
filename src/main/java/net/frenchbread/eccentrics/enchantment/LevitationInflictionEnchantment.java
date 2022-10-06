@@ -8,8 +8,8 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 
-public class PoisonAspectEnchantment extends Enchantment {
-    public PoisonAspectEnchantment(Rarity uncommon, EnchantmentTarget weapon, EquipmentSlot mainhand) {
+public class LevitationInflictionEnchantment extends Enchantment {
+    public LevitationInflictionEnchantment(Rarity uncommon, EnchantmentTarget weapon, EquipmentSlot mainhand) {
         super(Rarity.UNCOMMON, EnchantmentTarget.WEAPON, new EquipmentSlot[]{EquipmentSlot.MAINHAND});
     }
 
@@ -35,7 +35,7 @@ public class PoisonAspectEnchantment extends Enchantment {
 
     public void onTargetDamaged(LivingEntity user, Entity target, int level) {
         if (target instanceof LivingEntity) {
-            ((LivingEntity) target).addStatusEffect(new StatusEffectInstance(StatusEffects.POISON, 20 * 2 * level, level - 1));
+            ((LivingEntity) target).addStatusEffect(new StatusEffectInstance(StatusEffects.LEVITATION, 20 * 2 * level, level - 1));
         }
 
         super.onTargetDamaged(user, target, level);

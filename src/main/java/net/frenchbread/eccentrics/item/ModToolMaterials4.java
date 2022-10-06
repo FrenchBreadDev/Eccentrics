@@ -1,7 +1,6 @@
-package net.frenchbread.eccentrics.item.custom;
+package net.frenchbread.eccentrics.item;
 
 import net.fabricmc.yarn.constants.MiningLevels;
-import net.frenchbread.eccentrics.item.ModItems;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.util.Lazy;
