@@ -56,6 +56,9 @@ public class ModBlocks {
     public static final Block STYLED_STAINED_OXIDIZING_COPPER_VARIANT = registerBlock("styled_stained_glass_oxdizing_coppper_variant",
             new GlassBlock(FabricBlockSettings.copy(Blocks.GLASS).strength(4.5f).nonOpaque()));
 
+    public static final Block STYLED_STAINED_REVERSE_OXIDIZING_COPPER_VARIANT = registerBlock("styled_stained_glass_reverse_oxdizing_coppper_variant",
+            new GlassBlock(FabricBlockSettings.copy(Blocks.GLASS).strength(4.5f).nonOpaque()));
+
     public static final Block STYLED_STAINED_GLASS_OBSIDIAN_VARIANT = registerBlock("styled_stained_glass_obsidian_variant",
             new GlassBlock(FabricBlockSettings.copy(Blocks.GLASS).hardness(100.0f).resistance(2400.0f).nonOpaque()));
 

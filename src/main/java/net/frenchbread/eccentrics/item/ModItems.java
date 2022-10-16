@@ -194,6 +194,22 @@ public abstract class ModItems {
             new ModArmorItem7(ModArmorMaterials4.WITHERED_NETHERITE, EquipmentSlot.FEET,
                     new FabricItemSettings().group(ModItemGroup.ECCENTRICSCOMBAT)));
 
+    public static final Item WITHERED_NETHERITE_AXE = registerItem("withered_netherite_axe",
+            new ModAxeItem(ModToolMaterials4.WITHERED_NETHERITE, 7, 1f,
+                    new FabricItemSettings().group(ModItemGroup.ECCENTRICSCOMBAT)));
+
+    public static final Item WITHERED_NETHERITE_HOE = registerItem("withered_netherite_hoe",
+            new ModHoeItem(ModToolMaterials4.WITHERED_NETHERITE, 0, 1f,
+                    new FabricItemSettings().group(ModItemGroup.ECCENTRICSCOMBAT)));
+
+    public static final Item WITHERED_NETHERITE_SHOVEL = registerItem("withered_netherite_shovel",
+            new ShovelItem(ModToolMaterials4.WITHERED_NETHERITE, 0, 1f,
+                    new FabricItemSettings().group(ModItemGroup.ECCENTRICSCOMBAT)));
+
+    public static final Item WITHERED_NETHERITE_PICKAXE = registerItem("withered_netherite_pickaxe",
+            new ModPickaxeItem(ModToolMaterials4.WITHERED_NETHERITE, 0, 1f,
+                    new FabricItemSettings().group(ModItemGroup.ECCENTRICSCOMBAT)));
+
     public static final Item WITHERED_NETHERITE_DANCING_BLADE = registerItem("withered_netherite_dancing_blade",
             new ModWitherSwordItem(ModToolMaterials4.WITHERED_NETHERITE, 7, -1.6f,
                     new FabricItemSettings().group(ModItemGroup.ECCENTRICSCOMBAT)));
@@ -212,6 +228,7 @@ public abstract class ModItems {
     public static final Item WITHERED_NETHERITE_KARAMBIT = registerItem("withered_netherite_karambit",
             new EffectKarambit(KarambitTool.WITHERED_NETHERITE, 0, 6,
                     new FabricItemSettings().group(ModItemGroup.ECCENTRICSCOMBAT)));
+
 
 
 

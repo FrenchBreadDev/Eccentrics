@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "eccentrics:block/styled_stained_glass_reverse_oxdizing_coppper_variant"
+  }
+}

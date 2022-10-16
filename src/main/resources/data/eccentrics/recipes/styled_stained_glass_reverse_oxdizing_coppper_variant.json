@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "cMc",
+    "MGM",
+    "cMc"
+  ],
+  "key": {
+    "c": {
+      "item": "minecraft:copper_ingot"
+    },
+    "M": {
+      "item": "minecraft:magenta_stained_glass"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "eccentrics:styled_stained_glass_reverse_oxdizing_coppper_variant",
+    "count": 8
+  }
+}

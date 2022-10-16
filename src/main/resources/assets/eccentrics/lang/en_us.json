@@ -37,6 +37,7 @@
   "block.eccentrics.styled_stained_glass_nature_variant": "§7Styled Stained Glass (§2Nature§7)§r",
   "block.eccentrics.styled_stained_glass_wind_variant": "§7Styled Stained Glass (§8Wind§7)§r",
   "block.eccentrics.styled_stained_glass_oxdizing_coppper_variant": "§7Styled Stained Glass (§6O§3x§6i§3d§6i§3z§6i§3n§6g §3C§6o§3p§6p§3e§6r§7)§r",
+  "block.eccentrics.styled_stained_glass_reverse_oxdizing_coppper_variant": "§7Styled Stained Glass (§dReverse §6O§3x§6i§3d§6i§3z§6i§3n§6g §3C§6o§3p§6p§3e§6r§7)§r",
   "block.eccentrics.styled_stained_glass_obsidian_variant": "§7Styled Stained Glass (§8O§db§8s§di§8d§di§8a§dn§7)§r",
   "block.eccentrics.styled_stained_glass_bedrock_variant": "§7Styled Stained Glass (§8B§7e§fd§8r§7o§fc§8k)§r",
   "block.eccentrics.impure_bedrock": "§7Impure Bedrock",
@@ -97,6 +98,11 @@
   "item.eccentrics.withered_netherite_dancing_blade": "Withered Netherite Dancers Blade",
   "item.eccentrics.withered_netherite_claymore": "Withered Netherite Claymore",
   "item.eccentrics.withered_netherite_blade": "Withered Netherite Blade",
+  "item.eccentrics.withered_netherite_axe": "Withered Netherite Axe",
+  "item.eccentrics.withered_netherite_hoe": "Withered Netherite Hoe",
+  "item.eccentrics.withered_netherite_shovel": "Withered Netherite Shovel",
+  "item.eccentrics.withered_netherite_pickaxe": "Withered Netherite Pickaxe",
+
 
 
 
