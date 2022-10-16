@@ -1,5 +1,5 @@
 {
-  "credit": "Made with Blockbench",
+  "gui_light": "front",
   "texture_size": [18, 18],
   "textures": {
     "0": "eccentrics:item/withered_netherite_blade",

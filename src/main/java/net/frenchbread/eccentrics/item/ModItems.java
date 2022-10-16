@@ -209,6 +209,11 @@ public abstract class ModItems {
     public static final Item STEEL_ROD = registerItem("steel_rod",
             new Item(new FabricItemSettings().group(ModItemGroup.ECCENTRICSMISC)));
 
+    public static final Item WITHERED_NETHERITE_KARAMBIT = registerItem("withered_netherite_karambit",
+            new EffectKarambit(KarambitTool.WITHERED_NETHERITE, 0, 6,
+                    new FabricItemSettings().group(ModItemGroup.ECCENTRICSCOMBAT)));
+
+
 
 
 
