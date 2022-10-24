@@ -43,7 +43,7 @@ public class ModLootTableModifiers {
                         .with(ItemEntry.builder(ModItems.BEDROCK_FRAGMENT))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1f, 1f)).build());
                 tableBuilder.pool(poolBuilder.build());
-            }
+            /*}
             if (END_CITY_TREASURE_ID.equals(id)) {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
@@ -66,7 +66,7 @@ public class ModLootTableModifiers {
                         .conditionally(RandomChanceLootCondition.builder(0.06f)) // Drops 6% of the time
                         .with(ItemEntry.builder(ModItems.MUSIC_DISC_SYMPHONY_OF_THE_OVERWORLD))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1f, 1f)).build());
-                tableBuilder.pool(poolBuilder.build());
+           */     tableBuilder.pool(poolBuilder.build());
             }
             if (ELDER_GUARDIAN_ID.equals(id)) {
                 LootPool.Builder poolBuilder = LootPool.builder()

@@ -4,9 +4,11 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.frenchbread.eccentrics.EccentricsMod;
 import net.frenchbread.eccentrics.block.ModBlocks;
 import net.frenchbread.eccentrics.item.custom.*;
-import net.frenchbread.eccentrics.sound.ModSounds;
 import net.minecraft.entity.EquipmentSlot;
-import net.minecraft.item.*;
+import net.minecraft.item.Item;
+import net.minecraft.item.ShovelItem;
+import net.minecraft.item.SignItem;
+import net.minecraft.item.SwordItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -57,17 +59,18 @@ public abstract class ModItems {
     public static final Item BEDROCK_FRAGMENT = registerItem("bedrock_fragment",
             new Item(new FabricItemSettings().fireproof().group(ModItemGroup.ECCENTRICSMISC)));
 
-    public static final Item MUSIC_DISC_FRAGMENTS = registerItem("music_disc_fragments",
-            new ModMusicDiscItem(7, ModSounds.MUSIC_DISC_FRAGMENTS,
-                    new FabricItemSettings().group(ModItemGroup.ECCENTRICSMISC).maxCount(1)));
+   // public static final Item MUSIC_DISC_FRAGMENTS = registerItem("music_disc_fragments",
+          //  new ModMusicDiscItem(7, ModSounds.MUSIC_DISC_FRAGMENTS,
+               //     new FabricItemSettings().group(ModItemGroup.ECCENTRICSMISC).maxCount(1)));
 
-    public static final Item MUSIC_DISC_THE_CITADEL = registerItem("music_disc_the_citadel",
-            new ModMusicDiscItem(7, ModSounds.MUSIC_DISC_THE_CITADEL,
-                    new FabricItemSettings().group(ModItemGroup.ECCENTRICSMISC).maxCount(1)));
 
-    public static final Item MUSIC_DISC_SYMPHONY_OF_THE_OVERWORLD = registerItem("music_disc_symphony_of_the_overworld",
-            new ModMusicDiscItem(7, ModSounds.MUSIC_DISC_SYMPHONY_OF_THE_OVERWORLD,
-                    new FabricItemSettings().group(ModItemGroup.ECCENTRICSMISC).maxCount(1)));
+   // public static final Item MUSIC_DISC_THE_CITADEL = registerItem("music_disc_the_citadel",
+         //   new ModMusicDiscItem(7, ModSounds.MUSIC_DISC_THE_CITADEL,
+                 //   new FabricItemSettings().group(ModItemGroup.ECCENTRICSMISC).maxCount(1)));
+
+   // public static final Item MUSIC_DISC_SYMPHONY_OF_THE_OVERWORLD = registerItem("music_disc_symphony_of_the_overworld",
+          //  new ModMusicDiscItem(7, ModSounds.MUSIC_DISC_SYMPHONY_OF_THE_OVERWORLD,
+              //      new FabricItemSettings().group(ModItemGroup.ECCENTRICSMISC).maxCount(1)));
 
     public static final Item HARDENED_ECCENTRIUM_CRYSTAL_BLADE = registerItem("hardened_eccentrium_crystal_blade",
             new ModLevitationSwordItem(ModToolMaterials.ECCENTRIUM, 7, -1.2f,
@@ -228,6 +231,12 @@ public abstract class ModItems {
     public static final Item WITHERED_NETHERITE_KARAMBIT = registerItem("withered_netherite_karambit",
             new EffectKarambit(KarambitTool.WITHERED_NETHERITE, 0, 6,
                     new FabricItemSettings().group(ModItemGroup.ECCENTRICSCOMBAT)));
+
+    /* public static final Item NATURE_STAFF = registerItem("nature_staff",
+            new Item(new FabricItemSettings().fireproof().group(ModItemGroup.ECCENTRICSMISC)));
+     */
+
+
 
 
 
