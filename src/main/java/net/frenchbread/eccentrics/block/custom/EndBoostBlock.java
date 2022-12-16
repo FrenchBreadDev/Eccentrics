@@ -18,10 +18,11 @@ public class EndBoostBlock extends Block {
     @Override
     public void onSteppedOn(World world, BlockPos pos, BlockState state, Entity entity) {
         if(entity instanceof LivingEntity livingEntity) {
-            livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.LEVITATION, 200,5));
-            livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOW_FALLING,800 ,1));
+           livingEntity.addVelocity(0,2,0);
+            livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOW_FALLING,200 ,1));
         }
 
         super.onSteppedOn(world, pos, state, entity);
+
     }
 }

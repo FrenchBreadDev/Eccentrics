@@ -18,8 +18,8 @@ public class EndBoostBlockAmpX1 extends Block {
     @Override
     public void onSteppedOn(World world, BlockPos pos, BlockState state, Entity entity) {
         if(entity instanceof LivingEntity livingEntity) {
-            livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.LEVITATION, 200,10));
-            livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOW_FALLING,800 ,1));
+            livingEntity.addVelocity(0,4,0);
+            livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOW_FALLING,400 ,1));
         }
 
         super.onSteppedOn(world, pos, state, entity);

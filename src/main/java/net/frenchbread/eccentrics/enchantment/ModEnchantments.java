@@ -9,7 +9,11 @@ import net.minecraft.util.registry.Registry;
 
 public class ModEnchantments {
     public static Enchantment LEVITATION_INFLICTION = register("levitation_infliction",
-            new LevitationInflictionEnchantment(Enchantment.Rarity.UNCOMMON,
+            new LevitationInflictionEnchantment(Enchantment.Rarity.RARE,
+                    EnchantmentTarget.WEAPON, EquipmentSlot.MAINHAND));
+
+    public static Enchantment  VELOCITY  = register("velocity",
+            new VelocityEnchantment(Enchantment.Rarity.VERY_RARE,
                     EnchantmentTarget.WEAPON, EquipmentSlot.MAINHAND));
 
 
